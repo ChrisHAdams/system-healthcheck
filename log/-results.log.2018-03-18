@@ -1,0 +1,1330 @@
+07:38:13 - verbose: Verbose info
+07:38:13 - info: Hello world
+07:38:13 - warn: Warning message
+07:38:13 - error: Error info
+07:38:13 - info: Monitoring
+07:38:13 - info: Healthcheck App Started.  Live at Port 8006.
+07:38:13 - info: 200
+07:38:13 - info: 200
+07:38:14 - info: 200
+07:38:59 - verbose: Verbose info
+07:38:59 - info: Hello world
+07:38:59 - warn: Warning message
+07:38:59 - error: Error info
+07:38:59 - info: Monitoring
+07:38:59 - info: Healthcheck App Started.  Live at Port 8006.
+07:38:59 - info: 200 - 190
+07:38:59 - info: 200 - 234
+07:38:59 - info: 200 - 563
+07:41:08 - verbose: Verbose info
+07:41:08 - info: Hello world
+07:41:08 - warn: Warning message
+07:41:08 - error: Error info
+07:41:08 - info: Monitoring
+07:41:08 - info: Healthcheck App Started.  Live at Port 8006.
+07:41:35 - verbose: Verbose info
+07:41:35 - info: Hello world
+07:41:35 - warn: Warning message
+07:41:35 - error: Error info
+07:41:35 - info: Monitoring
+07:41:35 - info: Healthcheck App Started.  Live at Port 8006.
+07:43:05 - verbose: Verbose info
+07:43:05 - info: Hello world
+07:43:05 - warn: Warning message
+07:43:05 - error: Error info
+07:43:05 - info: Monitoring
+07:43:05 - info: Healthcheck App Started.  Live at Port 8006.
+07:46:44 - verbose: Verbose info
+07:46:44 - info: Hello world
+07:46:44 - warn: Warning message
+07:46:44 - error: Error info
+07:46:44 - info: Monitoring
+07:46:44 - info: Healthcheck App Started.  Live at Port 8006.
+07:48:26 - verbose: Verbose info
+07:48:26 - info: Hello world
+07:48:26 - warn: Warning message
+07:48:26 - error: Error info
+07:48:26 - info: Monitoring
+07:48:26 - info: Healthcheck App Started.  Live at Port 8006.
+07:49:02 - verbose: Verbose info
+07:49:02 - info: Hello world
+07:49:02 - warn: Warning message
+07:49:02 - error: Error info
+07:49:02 - info: Monitoring
+07:49:02 - info: Healthcheck App Started.  Live at Port 8006.
+07:49:36 - verbose: Verbose info
+07:49:36 - info: Hello world
+07:49:36 - warn: Warning message
+07:49:36 - error: Error info
+07:49:36 - info: Monitoring
+07:49:36 - info: Healthcheck App Started.  Live at Port 8006.
+07:59:54 - verbose: Verbose info
+07:59:54 - info: Hello world
+07:59:54 - warn: Warning message
+07:59:54 - error: Error info
+07:59:54 - info: Monitoring
+07:59:54 - info: Healthcheck App Started.  Live at Port 8006.
+08:00:12 - verbose: Verbose info
+08:00:12 - info: Hello world
+08:00:12 - warn: Warning message
+08:00:12 - error: Error info
+08:00:12 - info: Monitoring
+08:00:12 - info: Healthcheck App Started.  Live at Port 8006.
+08:00:50 - verbose: Verbose info
+08:00:50 - info: Hello world
+08:00:50 - warn: Warning message
+08:00:50 - error: Error info
+08:00:50 - info: Monitoring
+08:00:50 - info: Healthcheck App Started.  Live at Port 8006.
+08:01:46 - verbose: Verbose info
+08:01:46 - info: Hello world
+08:01:46 - warn: Warning message
+08:01:46 - error: Error info
+08:01:46 - info: Monitoring
+08:01:46 - info: In async
+08:01:46 - info: About to call
+08:01:46 - info: Healthcheck App Started.  Live at Port 8006.
+08:01:46 - info: 200 - 455
+08:01:46 - info: About to call
+08:01:47 - info: 200 - 224
+08:01:47 - info: About to call
+08:01:47 - info: 200 - 178
+08:04:05 - verbose: Verbose info
+08:04:05 - info: Hello world
+08:04:05 - warn: Warning message
+08:04:05 - error: Error info
+08:04:05 - info: Monitoring
+08:04:05 - info: In async
+08:04:05 - info: About to call
+08:04:05 - info: Healthcheck App Started.  Live at Port 8006.
+08:04:05 - info: 200 - 600
+08:04:05 - error:  TypeError: exports.serialize is not a function
+    at Object.exports.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston-compat/index.js:205:33)
+    at DailyRotateFile.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston-daily-rotate-file/daily-rotate-file.js:109:29)
+    at transportLog (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/logger.js:234:15)
+    at /Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:157:13
+    at _each (/Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:57:9)
+    at Object.async.each (/Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:156:9)
+    at exports.Logger.Logger.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/logger.js:246:9)
+    at exports.Logger.target.(anonymous function) [as info] (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/common.js:54:18)
+    at Object.makeHttpRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/request.js:15:5)
+    at <anonymous>
+08:04:28 - verbose: Verbose info
+08:04:28 - info: Hello world
+08:04:28 - warn: Warning message
+08:04:28 - error: Error info
+08:04:28 - info: Monitoring
+08:04:28 - info: In async
+08:04:28 - info: About to call
+08:04:28 - info: Healthcheck App Started.  Live at Port 8006.
+08:04:29 - info: 200 - 476
+08:04:29 - info: About to call
+08:04:29 - info: 200 - 219
+08:04:29 - info: About to call
+08:04:29 - info: 200 - 189
+08:05:42 - verbose: Verbose info
+08:05:42 - info: Hello world
+08:05:42 - warn: Warning message
+08:05:42 - error: Error info
+08:05:42 - info: Monitoring
+08:05:42 - info: In async
+08:05:42 - info: About to call
+08:05:42 - info: Healthcheck App Started.  Live at Port 8006.
+08:05:42 - info: 200 - 440
+08:05:42 - info: About to call
+08:05:43 - info: 200 - 227
+08:05:43 - info: About to call
+08:05:43 - info: 200 - 165
+08:06:50 - verbose: Verbose info
+08:06:50 - info: Hello world
+08:06:50 - warn: Warning message
+08:06:50 - error: Error info
+08:06:50 - info: Monitoring
+08:06:50 - info: In async
+08:06:50 - info: About to call
+08:06:50 - info: About to call
+08:06:50 - info: About to call
+08:06:50 - info: Healthcheck App Started.  Live at Port 8006.
+08:06:50 - info: 200 - 214
+08:06:50 - info: 200 - 247
+08:06:50 - info: 200 - 736
+08:14:01 - verbose: Verbose info
+08:14:01 - info: Hello world
+08:14:01 - warn: Warning message
+08:14:01 - error: Error info
+08:14:01 - info: Monitoring
+08:14:01 - info: About to call
+08:14:01 - info: About to call
+08:14:01 - info: About to call
+08:14:01 - error:  TypeError: d.getDay is not a function
+    at getDateAndTime (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:40:17)
+    at Healthcheck.monitor (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:70:25)
+    at Object.<anonymous> (/Users/chrisadams/projects/system-healthcheck/index.js:14:10)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+08:14:01 - info: Healthcheck App Started.  Live at Port 8006.
+08:14:01 - info: 200 - 232
+08:14:01 - info: 200 - 269
+08:14:02 - info: 200 - 517
+08:15:22 - verbose: Verbose info
+08:15:22 - info: Hello world
+08:15:22 - warn: Warning message
+08:15:22 - error: Error info
+08:15:22 - info: Monitoring
+08:15:22 - info: About to call
+08:15:22 - info: About to call
+08:15:22 - info: About to call
+08:15:22 - error:  TypeError: d.getHour is not a function
+    at getDateAndTime (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:43:18)
+    at Healthcheck.monitor (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:70:25)
+    at Object.<anonymous> (/Users/chrisadams/projects/system-healthcheck/index.js:14:10)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+08:15:22 - info: Healthcheck App Started.  Live at Port 8006.
+08:15:22 - info: 200 - 225
+08:15:22 - info: 200 - 248
+08:15:23 - info: 200 - 533
+08:16:37 - verbose: Verbose info
+08:16:37 - info: Hello world
+08:16:37 - warn: Warning message
+08:16:37 - error: Error info
+08:16:37 - info: Monitoring
+08:16:37 - info: About to call
+08:16:37 - info: About to call
+08:16:37 - info: About to call
+08:16:37 - info: Healthcheck App Started.  Live at Port 8006.
+08:16:37 - info: 200 - 233
+08:16:37 - info: 200 - 253
+08:16:38 - info: 200 - 551
+08:19:30 - verbose: Verbose info
+08:19:30 - info: Hello world
+08:19:30 - warn: Warning message
+08:19:30 - error: Error info
+08:19:30 - info: Monitoring
+08:19:30 - info: Healthcheck App Started.  Live at Port 8006.
+08:20:07 - verbose: Verbose info
+08:20:07 - info: Hello world
+08:20:07 - warn: Warning message
+08:20:07 - error: Error info
+08:20:07 - info: Monitoring
+08:20:07 - info: Healthcheck App Started.  Live at Port 8006.
+08:26:06 - verbose: Verbose info
+08:26:06 - info: Hello world
+08:26:06 - warn: Warning message
+08:26:06 - error: Error info
+08:26:06 - info: Monitoring
+08:26:06 - info: Healthcheck App Started.  Live at Port 8006.
+08:34:44 - verbose: Verbose info
+08:34:44 - info: Hello world
+08:34:44 - warn: Warning message
+08:34:44 - error: Error info
+08:34:44 - info: Monitoring
+08:34:44 - info: In async
+08:34:44 - info: About to call
+08:34:44 - info: Healthcheck App Started.  Live at Port 8006.
+08:34:45 - info: 200 - 533
+08:34:45 - info: About to call
+08:34:45 - info: 200 - 228
+08:34:45 - info: About to call
+08:34:45 - info: 200 - 191
+08:49:15 - verbose: Verbose info
+08:49:15 - info: Hello world
+08:49:15 - warn: Warning message
+08:49:15 - error: Error info
+08:49:15 - info: Monitoring
+08:49:15 - info: In async
+08:49:15 - info: About to call
+08:49:15 - info: Healthcheck App Started.  Live at Port 8006.
+08:49:16 - info: 200 - 584
+08:49:16 - info: About to call
+08:49:16 - info: 200 - 235
+08:49:16 - info: About to call
+08:49:16 - info: 200 - 180
+08:49:52 - verbose: Verbose info
+08:49:52 - info: Hello world
+08:49:52 - warn: Warning message
+08:49:52 - error: Error info
+08:49:52 - info: Monitoring
+08:49:53 - info: In async
+08:49:53 - info: About to call
+08:49:53 - info: Healthcheck App Started.  Live at Port 8006.
+08:49:53 - info: 200 - 579
+08:49:53 - info: About to call
+08:49:53 - info: 200 - 221
+08:49:53 - info: About to call
+08:49:53 - info: 200 - 159
+08:51:48 - verbose: Verbose info
+08:51:48 - info: Hello world
+08:51:48 - warn: Warning message
+08:51:48 - error: Error info
+08:51:48 - info: Monitoring
+08:51:48 - info: In async
+08:51:48 - info: About to call
+08:51:48 - info: Healthcheck App Started.  Live at Port 8006.
+08:51:48 - info: 200 - 466
+08:51:48 - info: About to call
+08:51:49 - info: 200 - 230
+08:51:49 - info: About to call
+08:51:49 - info: 200 - 179
+08:54:12 - verbose: Verbose info
+08:54:12 - info: Hello world
+08:54:12 - warn: Warning message
+08:54:12 - error: Error info
+08:54:12 - info: Monitoring
+08:54:12 - info: In async
+08:54:12 - info: Calling BBC Website.
+08:54:12 - info: Healthcheck App Started.  Live at Port 8006.
+08:54:12 - info: Calling Google Website.
+08:54:13 - info: Calling Sky Website.
+08:59:25 - verbose: Verbose info
+08:59:25 - info: Hello world
+08:59:25 - warn: Warning message
+08:59:25 - error: Error info
+08:59:25 - info: About to run monitoring checks
+08:59:25 - info: Healthcheck App Started.  Live at Port 8006.
+08:59:26 - info: Called BBC Website.  Response Code : 200.  Response Time : 686.
+08:59:26 - info: Called Google Website.  Response Code : 200.  Response Time : 254.
+08:59:27 - info: Called Sky Website.  Response Code : 200.  Response Time : 178.
+08:59:27 - info: Completed monitoring checks.
+09:01:38 - verbose: Verbose info
+09:01:38 - info: Hello world
+09:01:38 - warn: Warning message
+09:01:38 - error: Error info
+09:01:38 - info: About to run monitoring checks
+09:01:38 - info: Healthcheck App Started.  Live at Port 8006.
+09:01:38 - info: Called BBC Website.  Response Code : 200.  Response Time : 504.
+09:01:39 - info: Called Google Website.  Response Code : 200.  Response Time : 227.
+09:01:39 - info: Called Sky Website.  Response Code : 200.  Response Time : 213.
+09:01:39 - info: Completed monitoring checks.
+09:02:36 - verbose: Verbose info
+09:02:36 - info: Hello world
+09:02:36 - warn: Warning message
+09:02:36 - error: Error info
+09:02:36 - info: About to run monitoring checks
+09:02:36 - info: Healthcheck App Started.  Live at Port 8006.
+09:02:36 - info: Called BBC Website.  Response Code : 200.  Response Time : 614.
+09:02:37 - info: Called Google Website.  Response Code : 200.  Response Time : 219.
+09:02:37 - info: Called Sky Website.  Response Code : 200.  Response Time : 164.
+09:02:37 - error:  ReferenceError: getFileName is not defined
+    at writeLineToFile (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:19:22)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:49:9
+    at <anonymous>
+09:02:37 - info: Completed monitoring checks.
+09:07:45 - verbose: Verbose info
+09:07:45 - info: Hello world
+09:07:45 - warn: Warning message
+09:07:45 - error: Error info
+09:07:45 - info: About to run monitoring checks
+09:07:45 - info: Healthcheck App Started.  Live at Port 8006.
+09:07:46 - info: Called BBC Website.  Response Code : 200.  Response Time : 638.
+09:07:46 - info: Called Google Website.  Response Code : 200.  Response Time : 273.
+09:07:46 - info: Called Sky Website.  Response Code : 200.  Response Time : 220.
+09:07:46 - error:  ReferenceError: getFileName is not defined
+    at writeLineToFile (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:20:22)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:50:9
+    at <anonymous>
+09:07:46 - info: Completed monitoring checks.
+09:09:53 - verbose: Verbose info
+09:09:53 - info: Hello world
+09:09:53 - warn: Warning message
+09:09:53 - error: Error info
+09:09:53 - info: About to run monitoring checks
+09:09:53 - info: Healthcheck App Started.  Live at Port 8006.
+09:09:54 - info: Called BBC Website.  Response Code : 200.  Response Time : 460.
+09:09:54 - info: Called Google Website.  Response Code : 200.  Response Time : 221.
+09:09:54 - info: Called Sky Website.  Response Code : 200.  Response Time : 159.
+09:09:54 - info: Completed monitoring checks.
+09:21:26 - verbose: Verbose info
+09:21:26 - info: Hello world
+09:21:26 - warn: Warning message
+09:21:26 - error: Error info
+09:21:26 - info: About to run monitoring checks
+09:21:26 - info: Healthcheck App Started.  Live at Port 8006.
+09:21:27 - info: Called BBC Website.  Response Code : 200.  Response Time : 422.
+09:21:27 - info: Called Google Website.  Response Code : 200.  Response Time : 238.
+09:21:27 - info: Called Sky Website.  Response Code : 200.  Response Time : 201.
+09:21:27 - error:  TypeError: d.getDate(...).rightString is not a function
+    at Function.getDateAndTime (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/dateAndTimeFunctions.js:16:33)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:51:37
+    at <anonymous>
+09:21:27 - info: Completed monitoring checks.
+09:23:08 - verbose: Verbose info
+09:23:08 - info: Hello world
+09:23:08 - warn: Warning message
+09:23:08 - error: Error info
+09:23:08 - info: About to run monitoring checks
+09:23:08 - info: Healthcheck App Started.  Live at Port 8006.
+09:23:09 - info: Called BBC Website.  Response Code : 200.  Response Time : 451.
+09:23:09 - info: Called Google Website.  Response Code : 200.  Response Time : 208.
+09:23:09 - info: Called Sky Website.  Response Code : 200.  Response Time : 162.
+09:23:09 - error:  TypeError: d.getDate(...).slice is not a function
+    at Function.getDateAndTime (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/dateAndTimeFunctions.js:16:33)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:51:37
+    at <anonymous>
+09:23:09 - info: Completed monitoring checks.
+09:23:57 - verbose: Verbose info
+09:23:57 - info: Hello world
+09:23:57 - warn: Warning message
+09:23:57 - error: Error info
+09:23:57 - info: About to run monitoring checks
+09:23:57 - info: Healthcheck App Started.  Live at Port 8006.
+09:23:57 - info: Called BBC Website.  Response Code : 200.  Response Time : 453.
+09:23:58 - info: Called Google Website.  Response Code : 200.  Response Time : 213.
+09:23:58 - info: Called Sky Website.  Response Code : 200.  Response Time : 147.
+09:23:58 - info: Completed monitoring checks.
+09:24:47 - verbose: Verbose info
+09:24:47 - info: Hello world
+09:24:47 - warn: Warning message
+09:24:47 - error: Error info
+09:24:47 - info: About to run monitoring checks
+09:24:47 - info: Healthcheck App Started.  Live at Port 8006.
+09:24:48 - info: Called BBC Website.  Response Code : 200.  Response Time : 496.
+09:24:48 - info: Called Google Website.  Response Code : 200.  Response Time : 249.
+09:24:48 - info: Called Sky Website.  Response Code : 200.  Response Time : 201.
+09:24:48 - info: Completed monitoring checks.
+09:26:45 - verbose: Verbose info
+09:26:45 - info: Hello world
+09:26:45 - warn: Warning message
+09:26:45 - error: Error info
+09:26:45 - info: About to run monitoring checks
+09:26:45 - info: Healthcheck App Started.  Live at Port 8006.
+09:26:46 - info: Called BBC Website.  Response Code : 200.  Response Time : 453.
+09:26:46 - info: Called Google Website.  Response Code : 200.  Response Time : 219.
+09:26:46 - info: Called Sky Website.  Response Code : 200.  Response Time : 175.
+09:26:46 - info: Completed monitoring checks.
+09:32:32 - verbose: Verbose info
+09:32:32 - info: Hello world
+09:32:32 - warn: Warning message
+09:32:32 - error: Error info
+09:32:32 - info: About to run monitoring checks
+09:32:32 - info: Healthcheck App Started.  Live at Port 8006.
+09:32:32 - info: Called BBC Website.  Response Code : 200.  Response Time : 582.
+09:32:33 - info: Called Google Website.  Response Code : 200.  Response Time : 234.
+09:32:33 - info: Called Sky Website.  Response Code : 200.  Response Time : 175.
+09:32:33 - error:  TypeError: Cannot read property 'responseCode' of undefined
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:55:148
+    at <anonymous>
+09:32:33 - info: Completed monitoring checks.
+09:34:53 - verbose: Verbose info
+09:34:53 - info: Hello world
+09:34:53 - warn: Warning message
+09:34:53 - error: Error info
+09:34:53 - info: About to run monitoring checks
+09:34:53 - info: Healthcheck App Started.  Live at Port 8006.
+09:34:54 - info: Called BBC Website.  Response Code : 200.  Response Time : 575.
+09:34:54 - info: Called Google Website.  Response Code : 200.  Response Time : 218.
+09:34:54 - info: Called Sky Website.  Response Code : 200.  Response Time : 168.
+09:34:55 - info: Called Weather API.  Response Code : 200.  Response Time : 301.
+09:34:55 - info: Completed monitoring checks.
+09:35:35 - verbose: Verbose info
+09:35:35 - info: Hello world
+09:35:35 - warn: Warning message
+09:35:35 - error: Error info
+09:35:35 - info: About to run monitoring checks
+09:35:35 - info: Healthcheck App Started.  Live at Port 8006.
+09:35:36 - info: Called BBC Website.  Response Code : 200.  Response Time : 557.
+09:35:36 - info: Called Google Website.  Response Code : 200.  Response Time : 208.
+09:35:36 - info: Called Sky Website.  Response Code : 200.  Response Time : 171.
+09:35:37 - info: Called Weather API.  Response Code : 200.  Response Time : 337.
+09:35:37 - info: Completed monitoring checks.
+09:40:46 - verbose: Verbose info
+09:40:46 - info: Hello world
+09:40:46 - warn: Warning message
+09:40:46 - error: Error info
+09:40:46 - info: About to run monitoring checks
+09:40:46 - info: Healthcheck App Started.  Live at Port 8006.
+09:40:46 - info: Called BBC Website.  Response Code : 200.  Response Time : 459.
+09:40:47 - info: Called Google Website.  Response Code : 200.  Response Time : 229.
+09:40:47 - info: Called Sky Website.  Response Code : 200.  Response Time : 166.
+09:40:47 - info: Called Weather API.  Response Code : 200.  Response Time : 422.
+09:40:50 - info: Called Open Library API.  Response Code : 200.  Response Time : 2304.
+09:40:50 - info: Completed monitoring checks.
+09:47:33 - verbose: Verbose info
+09:47:33 - info: Hello world
+09:47:33 - warn: Warning message
+09:47:33 - error: Error info
+09:47:33 - info: About to run monitoring checks
+09:47:33 - info: Healthcheck App Started.  Live at Port 8006.
+09:47:33 - info: Called BBC Website.  Response Code : 200.  Response Time : 502.
+09:47:34 - info: Called Google Website.  Response Code : 200.  Response Time : 226.
+09:47:34 - info: Called Sky Website.  Response Code : 200.  Response Time : 166.
+09:47:34 - info: Called Weather API.  Response Code : 200.  Response Time : 318.
+09:47:36 - info: Called Open Library API.  Response Code : 200.  Response Time : 2413.
+09:47:36 - info: Completed monitoring checks.
+09:55:22 - verbose: Verbose info
+09:55:22 - info: Hello world
+09:55:22 - warn: Warning message
+09:55:22 - error: Error info
+09:55:22 - info: Healthcheck App Started.  Live at Port 8006.
+09:56:22 - info: About to run monitoring checks
+09:56:22 - error:  TypeError: Cannot read property 'length' of undefined
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:37:43
+    at Timeout.Healthcheck.monitor [as _onTimeout] (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:67:7)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+09:58:02 - verbose: Verbose info
+09:58:02 - info: Hello world
+09:58:02 - warn: Warning message
+09:58:02 - error: Error info
+09:58:02 - info: About to run monitoring checks
+09:58:02 - info: Healthcheck App Started.  Live at Port 8006.
+09:58:02 - info: Called BBC Website.  Response Code : 200.  Response Time : 520.
+09:58:03 - info: Called Google Website.  Response Code : 200.  Response Time : 347.
+09:58:03 - info: Called Sky Website.  Response Code : 200.  Response Time : 194.
+09:58:03 - info: Called Weather API.  Response Code : 200.  Response Time : 251.
+09:58:06 - info: Called Open Library API.  Response Code : 200.  Response Time : 2706.
+09:58:06 - info: Completed monitoring checks.
+11:22:59 - verbose: Verbose info
+11:22:59 - info: Hello world
+11:22:59 - warn: Warning message
+11:22:59 - error: Error info
+11:22:59 - info: About to run monitoring checks
+11:22:59 - info: Healthcheck App Started.  Live at Port 8006.
+11:23:00 - info: Called BBC Website.  Response Code : 200.  Response Time : 575.
+11:23:00 - info: Called Google Website.  Response Code : 200.  Response Time : 236.
+11:23:00 - info: Called Sky Website.  Response Code : 200.  Response Time : 176.
+11:23:00 - info: Called Weather API.  Response Code : 200.  Response Time : 254.
+11:23:03 - info: Called Open Library API.  Response Code : 200.  Response Time : 2725.
+11:23:03 - error:  TypeError: Cannot read property 'responseCode' of undefined
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:57:148
+    at <anonymous>
+11:23:03 - info: Completed monitoring checks.
+11:25:56 - verbose: Verbose info
+11:25:57 - info: Hello world
+11:25:57 - warn: Warning message
+11:25:57 - error: Error info
+11:25:57 - info: About to run monitoring checks
+11:25:57 - info: Healthcheck App Started.  Live at Port 8006.
+11:25:57 - info: Called BBC Website.  Response Code : 200.  Response Time : 581.
+11:25:57 - info: Called Google Website.  Response Code : 200.  Response Time : 228.
+11:25:57 - info: Called Sky Website.  Response Code : 200.  Response Time : 184.
+11:25:58 - info: Called Weather API.  Response Code : 200.  Response Time : 468.
+11:26:03 - info: Called Open Library API.  Response Code : 200.  Response Time : 4951.
+11:26:03 - error:  TypeError: ping.makePingRequest is not a function
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:52:63
+    at <anonymous>
+11:26:03 - info: Completed monitoring checks.
+11:26:40 - verbose: Verbose info
+11:26:40 - info: Hello world
+11:26:40 - warn: Warning message
+11:26:40 - error: Error info
+11:26:40 - info: About to run monitoring checks
+11:26:40 - info: Healthcheck App Started.  Live at Port 8006.
+11:26:40 - info: Called BBC Website.  Response Code : 200.  Response Time : 494.
+11:26:40 - info: Called Google Website.  Response Code : 200.  Response Time : 208.
+11:26:40 - info: Called Sky Website.  Response Code : 200.  Response Time : 156.
+11:26:41 - info: Called Weather API.  Response Code : 200.  Response Time : 223.
+11:26:43 - info: Called Open Library API.  Response Code : 200.  Response Time : 2333.
+11:26:43 - error:  TypeError: ping.makePingRequest is not a function
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:52:63
+    at <anonymous>
+11:26:43 - info: Completed monitoring checks.
+11:28:21 - verbose: Verbose info
+11:28:21 - info: Hello world
+11:28:21 - warn: Warning message
+11:28:21 - error: Error info
+11:28:21 - info: About to run monitoring checks
+11:28:21 - info: Healthcheck App Started.  Live at Port 8006.
+11:28:21 - info: Called BBC Website.  Response Code : 200.  Response Time : 517.
+11:28:21 - info: Called Google Website.  Response Code : 200.  Response Time : 255.
+11:28:22 - info: Called Sky Website.  Response Code : 200.  Response Time : 154.
+11:28:22 - info: Called Weather API.  Response Code : 200.  Response Time : 171.
+11:28:26 - info: Called Open Library API.  Response Code : 200.  Response Time : 4172.
+11:28:26 - error:  TypeError: ping.makePingRequest is not a function
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:53:63
+    at <anonymous>
+11:28:26 - info: Completed monitoring checks.
+11:28:51 - verbose: Verbose info
+11:28:51 - info: Hello world
+11:28:51 - warn: Warning message
+11:28:51 - error: Error info
+11:28:51 - info: About to run monitoring checks
+11:28:51 - info: Healthcheck App Started.  Live at Port 8006.
+11:28:51 - info: Called BBC Website.  Response Code : 200.  Response Time : 513.
+11:28:52 - info: Called Google Website.  Response Code : 200.  Response Time : 206.
+11:28:52 - info: Called Sky Website.  Response Code : 200.  Response Time : 149.
+11:28:52 - info: Called Weather API.  Response Code : 200.  Response Time : 126.
+11:28:54 - info: Called Open Library API.  Response Code : 200.  Response Time : 2254.
+11:28:54 - error:  TypeError: exports.serialize is not a function
+    at Object.exports.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston-compat/index.js:205:33)
+    at DailyRotateFile.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston-daily-rotate-file/daily-rotate-file.js:109:29)
+    at transportLog (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/logger.js:234:15)
+    at /Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:157:13
+    at _each (/Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:57:9)
+    at Object.async.each (/Users/chrisadams/projects/system-healthcheck/node_modules/async/lib/async.js:156:9)
+    at exports.Logger.Logger.log (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/logger.js:246:9)
+    at exports.Logger.target.(anonymous function) [as info] (/Users/chrisadams/projects/system-healthcheck/node_modules/winston/lib/winston/common.js:54:18)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:8:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+11:28:54 - info: Completed monitoring checks.
+11:29:32 - verbose: Verbose info
+11:29:32 - info: Hello world
+11:29:32 - warn: Warning message
+11:29:32 - error: Error info
+11:29:32 - info: About to run monitoring checks
+11:29:32 - info: Healthcheck App Started.  Live at Port 8006.
+11:29:32 - info: Called BBC Website.  Response Code : 200.  Response Time : 542.
+11:29:33 - info: Called Google Website.  Response Code : 200.  Response Time : 224.
+11:29:33 - info: Called Sky Website.  Response Code : 200.  Response Time : 210.
+11:29:34 - info: Called Weather API.  Response Code : 200.  Response Time : 1233.
+11:29:36 - info: Called Open Library API.  Response Code : 200.  Response Time : 2321.
+11:29:36 - info: 
+11:29:36 - info: Called Server.  Response Code : undefined.  Response Time : 12.
+11:29:36 - error:  SyntaxError: Unexpected token u in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:11:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+11:29:36 - info: Completed monitoring checks.
+11:30:34 - verbose: Verbose info
+11:30:34 - info: Hello world
+11:30:34 - warn: Warning message
+11:30:34 - error: Error info
+11:30:34 - info: About to run monitoring checks
+11:30:34 - info: Healthcheck App Started.  Live at Port 8006.
+11:30:35 - info: Called BBC Website.  Response Code : 200.  Response Time : 575.
+11:30:35 - info: Called Google Website.  Response Code : 200.  Response Time : 222.
+11:30:35 - info: Called Sky Website.  Response Code : 200.  Response Time : 213.
+11:30:35 - info: Called Weather API.  Response Code : 200.  Response Time : 203.
+11:30:38 - info: Called Open Library API.  Response Code : 200.  Response Time : 2564.
+11:30:40 - info: 
+11:30:40 - info: Called Server.  Response Code : undefined.  Response Time : 2017.
+11:30:40 - error:  SyntaxError: Unexpected token u in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:11:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+11:30:40 - info: Completed monitoring checks.
+11:32:59 - verbose: Verbose info
+11:32:59 - info: Hello world
+11:32:59 - warn: Warning message
+11:32:59 - error: Error info
+11:32:59 - info: About to run monitoring checks
+11:32:59 - info: Healthcheck App Started.  Live at Port 8006.
+11:33:00 - info: Called BBC Website.  Response Code : 200.  Response Time : 557.
+11:33:00 - info: Called Google Website.  Response Code : 200.  Response Time : 214.
+11:33:00 - info: Called Sky Website.  Response Code : 200.  Response Time : 177.
+11:33:00 - info: Called Weather API.  Response Code : 200.  Response Time : 178.
+11:33:02 - info: Called Open Library API.  Response Code : 200.  Response Time : 2249.
+11:33:02 - error:  ReferenceError: response is not defined
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:10)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:53:63
+    at <anonymous>
+11:33:02 - info: Completed monitoring checks.
+11:34:16 - verbose: Verbose info
+11:34:16 - info: Hello world
+11:34:16 - warn: Warning message
+11:34:16 - error: Error info
+11:34:16 - info: About to run monitoring checks
+11:34:16 - info: Healthcheck App Started.  Live at Port 8006.
+11:34:17 - info: Called BBC Website.  Response Code : 200.  Response Time : 442.
+11:34:17 - info: Called Google Website.  Response Code : 200.  Response Time : 225.
+11:34:17 - info: Called Sky Website.  Response Code : 200.  Response Time : 180.
+11:34:17 - info: Called Weather API.  Response Code : 200.  Response Time : 210.
+11:34:20 - info: Called Open Library API.  Response Code : 200.  Response Time : 2525.
+11:34:20 - error:  ReferenceError: response is not defined
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:10)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:53:63
+    at <anonymous>
+11:34:20 - info: Completed monitoring checks.
+11:34:30 - verbose: Verbose info
+11:34:30 - info: Hello world
+11:34:30 - warn: Warning message
+11:34:30 - error: Error info
+11:34:30 - info: About to run monitoring checks
+11:34:30 - info: Healthcheck App Started.  Live at Port 8006.
+11:34:31 - info: Called BBC Website.  Response Code : 200.  Response Time : 429.
+11:34:31 - info: Called Google Website.  Response Code : 200.  Response Time : 210.
+11:34:31 - info: Called Sky Website.  Response Code : 200.  Response Time : 150.
+11:34:31 - info: Called Weather API.  Response Code : 200.  Response Time : 194.
+11:34:33 - info: Called Open Library API.  Response Code : 200.  Response Time : 2294.
+11:34:33 - error:  ReferenceError: response is not defined
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:10)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:53:63
+    at <anonymous>
+11:34:33 - info: Completed monitoring checks.
+11:34:55 - verbose: Verbose info
+11:34:55 - info: Hello world
+11:34:55 - warn: Warning message
+11:34:55 - error: Error info
+11:34:55 - info: About to run monitoring checks
+11:34:55 - info: Healthcheck App Started.  Live at Port 8006.
+11:34:56 - info: Called BBC Website.  Response Code : 200.  Response Time : 576.
+11:34:56 - info: Called Google Website.  Response Code : 200.  Response Time : 212.
+11:34:56 - info: Called Sky Website.  Response Code : 200.  Response Time : 157.
+11:34:56 - info: Called Weather API.  Response Code : 200.  Response Time : 179.
+11:34:59 - info: Called Open Library API.  Response Code : 200.  Response Time : 2484.
+11:34:59 - error:  ReferenceError: response is not defined
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:10)
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:53:63
+    at <anonymous>
+11:34:59 - info: Completed monitoring checks.
+11:41:03 - verbose: Verbose info
+11:41:03 - info: Hello world
+11:41:03 - warn: Warning message
+11:41:03 - error: Error info
+11:41:03 - info: About to run monitoring checks
+11:41:03 - info: Healthcheck App Started.  Live at Port 8006.
+11:41:03 - info: Called BBC Website.  Response Code : 200.  Response Time : 445.
+11:41:03 - info: Called Google Website.  Response Code : 200.  Response Time : 220.
+11:41:04 - info: Called Sky Website.  Response Code : 200.  Response Time : 227.
+11:41:04 - info: Called Weather API.  Response Code : 200.  Response Time : 127.
+11:41:07 - info: Called Open Library API.  Response Code : 200.  Response Time : 2796.
+11:41:07 - info: Called Server.  Response Code : undefined.  Response Time : 39.
+11:41:07 - error:  SyntaxError: Unexpected token u in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:15:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+11:41:07 - info: Completed monitoring checks.
+11:41:39 - verbose: Verbose info
+11:41:39 - info: Hello world
+11:41:39 - warn: Warning message
+11:41:39 - error: Error info
+11:41:39 - info: About to run monitoring checks
+11:41:39 - info: Healthcheck App Started.  Live at Port 8006.
+11:41:39 - info: Called BBC Website.  Response Code : 200.  Response Time : 422.
+11:41:40 - info: Called Google Website.  Response Code : 200.  Response Time : 202.
+11:41:40 - info: Called Sky Website.  Response Code : 200.  Response Time : 157.
+11:41:40 - info: Called Weather API.  Response Code : 200.  Response Time : 174.
+11:41:42 - info: Called Open Library API.  Response Code : 200.  Response Time : 2242.
+11:41:42 - info: Called Server.  Response Code : undefined.  Response Time : 36.
+11:41:42 - error:  SyntaxError: Unexpected token u in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:15:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+11:41:42 - info: Completed monitoring checks.
+13:13:49 - verbose: Verbose info
+13:13:49 - info: Hello world
+13:13:49 - warn: Warning message
+13:13:49 - error: Error info
+13:13:49 - info: About to run monitoring checks
+13:13:49 - info: Healthcheck App Started.  Live at Port 8006.
+13:13:50 - info: Called BBC Website.  Response Code : 200.  Response Time : 566.
+13:13:50 - info: Called Google Website.  Response Code : 200.  Response Time : 234.
+13:13:53 - info: Called Sky Website.  Response Code : 200.  Response Time : 3196.
+13:13:54 - info: Called Weather API.  Response Code : 200.  Response Time : 293.
+13:13:57 - info: Called Open Library API.  Response Code : 200.  Response Time : 3424.
+13:13:57 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 36.
+13:13:57 - error:  SyntaxError: Unexpected token A in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+13:13:57 - info: Completed monitoring checks.
+13:15:29 - verbose: Verbose info
+13:15:29 - info: Hello world
+13:15:29 - warn: Warning message
+13:15:29 - error: Error info
+13:15:29 - info: About to run monitoring checks
+13:15:29 - info: Healthcheck App Started.  Live at Port 8006.
+13:15:29 - info: Called BBC Website.  Response Code : 200.  Response Time : 469.
+13:15:29 - info: Called Google Website.  Response Code : 200.  Response Time : 218.
+13:15:30 - info: Called Sky Website.  Response Code : 200.  Response Time : 161.
+13:15:30 - info: Called Weather API.  Response Code : 200.  Response Time : 196.
+13:15:32 - info: Called Open Library API.  Response Code : 200.  Response Time : 2354.
+13:15:32 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 25.543.
+13:15:32 - error:  SyntaxError: Unexpected token A in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:12:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+13:15:32 - info: Completed monitoring checks.
+13:16:53 - verbose: Verbose info
+13:16:53 - info: Hello world
+13:16:53 - warn: Warning message
+13:16:53 - error: Error info
+13:16:53 - info: About to run monitoring checks
+13:16:53 - info: Healthcheck App Started.  Live at Port 8006.
+13:16:54 - info: Called BBC Website.  Response Code : 200.  Response Time : 606.
+13:16:54 - info: Called Google Website.  Response Code : 200.  Response Time : 220.
+13:16:54 - info: Called Sky Website.  Response Code : 200.  Response Time : 163.
+13:16:54 - info: Called Weather API.  Response Code : 200.  Response Time : 126.
+13:16:56 - info: Called Open Library API.  Response Code : 200.  Response Time : 2169.
+13:16:56 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.051.
+13:16:56 - error:  SyntaxError: Unexpected token A in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at Object.makePingRequest (/Users/chrisadams/projects/system-healthcheck/src/healthcheck/pingServer.js:13:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+13:16:56 - info: Completed monitoring checks.
+13:17:41 - verbose: Verbose info
+13:17:41 - info: Hello world
+13:17:41 - warn: Warning message
+13:17:41 - error: Error info
+13:17:41 - info: About to run monitoring checks
+13:17:41 - info: Healthcheck App Started.  Live at Port 8006.
+13:17:42 - info: Called BBC Website.  Response Code : 200.  Response Time : 498.
+13:17:42 - info: Called Google Website.  Response Code : 200.  Response Time : 225.
+13:17:42 - info: Called Sky Website.  Response Code : 200.  Response Time : 162.
+13:17:42 - info: Called Weather API.  Response Code : 200.  Response Time : 124.
+13:17:45 - info: Called Open Library API.  Response Code : 200.  Response Time : 2380.
+13:17:45 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 28.000.
+13:17:45 - info: Completed monitoring checks.
+13:55:18 - info: About to run monitoring checks
+13:55:18 - info: Healthcheck App Started.  Live at Port 8006.
+13:55:18 - info: Called BBC Website.  Response Code : 200.  Response Time : 536.
+13:55:19 - info: Called Google Website.  Response Code : 200.  Response Time : 240.
+13:55:19 - info: Called Sky Website.  Response Code : 200.  Response Time : 185.
+13:55:19 - info: Called Weather API.  Response Code : 200.  Response Time : 197.
+13:55:23 - info: Called Open Library API.  Response Code : 200.  Response Time : 3407.
+13:55:23 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 27.587.
+13:55:23 - info: Completed monitoring checks.
+15:33:59 - info: About to run monitoring checks
+15:33:59 - info: Healthcheck App Started.  Live at Port 8006.
+15:34:01 - info: Called BBC Website.  Response Code : 200.  Response Time : 2237.
+15:34:02 - info: Called Google Website.  Response Code : 200.  Response Time : 431.
+15:34:02 - info: Called Sky Website.  Response Code : 200.  Response Time : 306.
+15:34:02 - info: Called Weather API.  Response Code : 200.  Response Time : 387.
+15:34:05 - info: Called Open Library API.  Response Code : 200.  Response Time : 2643.
+15:34:05 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 29.737.
+15:34:05 - info: Completed monitoring checks.
+15:36:49 - info: About to run monitoring checks
+15:36:49 - info: Healthcheck App Started.  Live at Port 8006.
+15:36:49 - info: Called BBC Website.  Response Code : 200.  Response Time : 561.
+15:36:49 - info: Called Google Website.  Response Code : 200.  Response Time : 243.
+15:36:50 - info: Called Sky Website.  Response Code : 200.  Response Time : 192.
+15:36:50 - info: Called Weather API.  Response Code : 200.  Response Time : 322.
+15:36:55 - info: Called Open Library API.  Response Code : 200.  Response Time : 4870.
+15:36:55 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 28.370.
+15:36:55 - info: Completed monitoring checks.
+16:03:55 - info: About to run monitoring checks
+16:03:55 - info: Healthcheck App Started.  Live at Port 8006.
+16:03:56 - info: Called BBC Website.  Response Code : 200.  Response Time : 920.
+16:03:56 - info: Called Google Website.  Response Code : 200.  Response Time : 368.
+16:03:56 - info: Called Sky Website.  Response Code : 200.  Response Time : 274.
+16:03:56 - info: Called Weather API.  Response Code : 200.  Response Time : 248.
+16:03:59 - info: Called Open Library API.  Response Code : 200.  Response Time : 2734.
+16:03:59 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.018.
+16:03:59 - info: Completed monitoring checks.
+16:04:24 - info: About to run monitoring checks
+16:04:24 - info: Healthcheck App Started.  Live at Port 8006.
+16:04:24 - info: Called BBC Website.  Response Code : 200.  Response Time : 529.
+16:04:25 - info: Called Google Website.  Response Code : 200.  Response Time : 248.
+16:04:25 - info: Called Sky Website.  Response Code : 200.  Response Time : 165.
+16:04:25 - info: Called Weather API.  Response Code : 200.  Response Time : 112.
+16:04:27 - info: Called Open Library API.  Response Code : 200.  Response Time : 2168.
+16:04:27 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.214.
+16:04:27 - info: Completed monitoring checks.
+16:05:33 - info: About to run monitoring checks
+16:05:33 - info: Healthcheck App Started.  Live at Port 8006.
+16:05:34 - info: Called BBC Website.  Response Code : 200.  Response Time : 787.
+16:05:34 - info: Called Google Website.  Response Code : 200.  Response Time : 244.
+16:05:34 - info: Called Sky Website.  Response Code : 200.  Response Time : 163.
+16:05:35 - info: Called Weather API.  Response Code : 200.  Response Time : 311.
+16:05:37 - info: Called Open Library API.  Response Code : 200.  Response Time : 2370.
+16:05:37 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 32.579.
+16:05:37 - info: Completed monitoring checks.
+16:06:31 - info: About to run monitoring checks
+16:06:31 - info: Healthcheck App Started.  Live at Port 8006.
+16:06:32 - info: Called BBC Website.  Response Code : 200.  Response Time : 1312.
+16:06:33 - info: Called Google Website.  Response Code : 200.  Response Time : 365.
+16:06:33 - info: Called Sky Website.  Response Code : 200.  Response Time : 542.
+16:06:33 - info: Called Weather API.  Response Code : 200.  Response Time : 158.
+16:06:36 - info: Called Open Library API.  Response Code : 200.  Response Time : 2626.
+16:06:36 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 47.071.
+16:06:36 - info: Completed monitoring checks.
+16:07:24 - info: About to run monitoring checks
+16:07:24 - info: Healthcheck App Started.  Live at Port 8006.
+16:07:24 - info: Called BBC Website.  Response Code : 200.  Response Time : 569.
+16:07:24 - info: Called Google Website.  Response Code : 200.  Response Time : 205.
+16:07:24 - info: Called Sky Website.  Response Code : 200.  Response Time : 185.
+16:07:25 - info: Called Weather API.  Response Code : 200.  Response Time : 571.
+16:07:28 - info: Called Open Library API.  Response Code : 200.  Response Time : 2736.
+16:07:28 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 25.630.
+16:07:28 - info: Completed monitoring checks.
+16:08:23 - info: About to run monitoring checks
+16:08:23 - info: Healthcheck App Started.  Live at Port 8006.
+16:08:24 - info: Called BBC Website.  Response Code : 200.  Response Time : 1031.
+16:08:24 - info: Called Google Website.  Response Code : 200.  Response Time : 216.
+16:08:24 - info: Called Sky Website.  Response Code : 200.  Response Time : 164.
+16:08:24 - info: Called Weather API.  Response Code : 200.  Response Time : 186.
+16:08:28 - info: Called Open Library API.  Response Code : 200.  Response Time : 3477.
+16:08:28 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 28.347.
+16:08:28 - info: Completed monitoring checks.
+16:11:00 - info: About to run monitoring checks
+16:11:00 - info: Healthcheck App Started.  Live at Port 8006.
+16:11:01 - info: Called BBC Website.  Response Code : 200.  Response Time : 530.
+16:11:01 - info: Called Google Website.  Response Code : 200.  Response Time : 242.
+16:11:01 - info: Called Sky Website.  Response Code : 200.  Response Time : 174.
+16:11:01 - info: Called Weather API.  Response Code : 200.  Response Time : 148.
+16:11:05 - info: Called Open Library API.  Response Code : 200.  Response Time : 3740.
+16:11:05 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 29.982.
+16:11:05 - error:  ReferenceError: itemhasOwnProperty is not defined
+    at /Users/chrisadams/projects/system-healthcheck/src/healthcheck/healthcheck.js:64:11
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+16:11:05 - info: Completed monitoring checks.
+16:11:17 - info: About to run monitoring checks
+16:11:17 - info: Healthcheck App Started.  Live at Port 8006.
+16:11:17 - info: Called BBC Website.  Response Code : 200.  Response Time : 604.
+16:11:18 - info: Called Google Website.  Response Code : 200.  Response Time : 205.
+16:11:18 - info: Called Sky Website.  Response Code : 200.  Response Time : 146.
+16:11:18 - info: Called Weather API.  Response Code : 200.  Response Time : 238.
+16:11:21 - info: Called Open Library API.  Response Code : 200.  Response Time : 3192.
+16:11:21 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.560.
+16:11:21 - info: Completed monitoring checks.
+16:28:45 - info: About to run monitoring checks
+16:28:45 - info: Healthcheck App Started.  Live at Port 8006.
+16:28:46 - info: Called BBC Website.  Response Code : 200.  Response Time : 984.
+16:28:47 - info: Called Google Website.  Response Code : 200.  Response Time : 425.
+16:28:47 - info: Called Sky Website.  Response Code : 200.  Response Time : 507.
+16:28:47 - info: Called Weather API.  Response Code : 200.  Response Time : 282.
+16:28:50 - info: Called Open Library API.  Response Code : 200.  Response Time : 2828.
+16:28:50 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 34.820.
+16:28:50 - info: Completed monitoring checks.
+16:30:37 - info: About to run monitoring checks
+16:30:37 - info: Healthcheck App Started.  Live at Port 8006.
+16:30:38 - info: Called BBC Website.  Response Code : 200.  Response Time : 764.
+16:30:38 - info: Called Google Website.  Response Code : 200.  Response Time : 234.
+16:30:39 - info: Called Sky Website.  Response Code : 200.  Response Time : 256.
+16:30:39 - info: Called Weather API.  Response Code : 200.  Response Time : 229.
+16:30:42 - info: Called Open Library API.  Response Code : 200.  Response Time : 3221.
+16:30:42 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 29.932.
+16:30:42 - info: Completed monitoring checks.
+16:31:53 - info: About to run monitoring checks
+16:31:53 - info: Healthcheck App Started.  Live at Port 8006.
+16:31:54 - info: Called BBC Website.  Response Code : 200.  Response Time : 848.
+16:31:54 - info: Called Google Website.  Response Code : 200.  Response Time : 228.
+16:31:55 - info: Called Sky Website.  Response Code : 200.  Response Time : 267.
+16:31:55 - info: Called Weather API.  Response Code : 200.  Response Time : 225.
+16:31:59 - info: Called Open Library API.  Response Code : 200.  Response Time : 4031.
+16:31:59 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 37.747.
+16:31:59 - info: Completed monitoring checks.
+20:12:36 - info: About to run monitoring checks
+20:12:36 - info: Healthcheck App Started.  Live at Port 8006.
+20:12:37 - info: Called BBC Website.  Response Code : 200.  Response Time : 462.
+20:12:37 - info: Called Google Website.  Response Code : 200.  Response Time : 229.
+20:12:37 - info: Called Sky Website.  Response Code : 200.  Response Time : 172.
+20:12:37 - info: Called Weather API.  Response Code : 200.  Response Time : 211.
+20:12:40 - info: Called Open Library API.  Response Code : 200.  Response Time : 2373.
+20:12:40 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 35.922.
+20:12:40 - info: Completed monitoring checks.
+20:21:56 - info: About to run monitoring checks
+20:21:56 - info: Healthcheck App Started.  Live at Port 8006.
+20:21:57 - info: Called BBC Website.  Response Code : 200.  Response Time : 556.
+20:21:57 - info: Called Google Website.  Response Code : 200.  Response Time : 232.
+20:21:57 - info: Called Sky Website.  Response Code : 200.  Response Time : 396.
+20:21:57 - info: Called Weather API.  Response Code : 200.  Response Time : 211.
+20:22:00 - info: Called Open Library API.  Response Code : 200.  Response Time : 2801.
+20:22:00 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 29.114.
+20:22:00 - info: Completed monitoring checks.
+20:22:36 - info: About to run monitoring checks
+20:22:37 - info: Called BBC Website.  Response Code : 200.  Response Time : 620.
+20:22:37 - info: Called Google Website.  Response Code : 200.  Response Time : 251.
+20:22:38 - info: Called Sky Website.  Response Code : 200.  Response Time : 182.
+20:22:38 - info: Called Weather API.  Response Code : 200.  Response Time : 166.
+20:22:40 - info: Called Open Library API.  Response Code : 200.  Response Time : 2264.
+20:22:40 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 36.178.
+20:22:40 - info: Completed monitoring checks.
+20:22:42 - info: About to run monitoring checks
+20:22:43 - info: Called BBC Website.  Response Code : 200.  Response Time : 776.
+20:22:43 - info: Called Google Website.  Response Code : 200.  Response Time : 271.
+20:22:43 - info: Called Sky Website.  Response Code : 200.  Response Time : 237.
+20:22:43 - info: Called Weather API.  Response Code : 200.  Response Time : 133.
+20:22:45 - info: Called Open Library API.  Response Code : 200.  Response Time : 2174.
+20:22:46 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.922.
+20:22:46 - info: Completed monitoring checks.
+20:23:33 - info: About to run monitoring checks
+20:23:33 - info: Healthcheck App Started.  Live at Port 8006.
+20:23:33 - info: Called BBC Website.  Response Code : 200.  Response Time : 642.
+20:23:34 - info: Called Google Website.  Response Code : 200.  Response Time : 206.
+20:23:34 - info: Called Sky Website.  Response Code : 200.  Response Time : 438.
+20:23:35 - info: Called Weather API.  Response Code : 200.  Response Time : 599.
+20:23:37 - info: Called Open Library API.  Response Code : 200.  Response Time : 2447.
+20:23:37 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.881.
+20:23:37 - info: Completed monitoring checks.
+20:23:47 - info: About to run monitoring checks
+20:23:47 - info: About to run monitoring checks
+20:23:48 - info: Called BBC Website.  Response Code : 200.  Response Time : 581.
+20:23:48 - info: Called BBC Website.  Response Code : 200.  Response Time : 592.
+20:23:48 - info: Called Google Website.  Response Code : 200.  Response Time : 240.
+20:23:48 - info: Called Google Website.  Response Code : 200.  Response Time : 239.
+20:23:48 - info: Called Sky Website.  Response Code : 200.  Response Time : 176.
+20:23:48 - info: Called Sky Website.  Response Code : 200.  Response Time : 170.
+20:23:49 - info: Called Weather API.  Response Code : 200.  Response Time : 333.
+20:23:49 - info: Called Weather API.  Response Code : 200.  Response Time : 349.
+20:23:50 - info: Called Open Library API.  Response Code : 200.  Response Time : 1781.
+20:23:51 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 29.093.
+20:23:51 - info: Completed monitoring checks.
+20:23:51 - info: Called Open Library API.  Response Code : 200.  Response Time : 1882.
+20:23:51 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 37.271.
+20:23:51 - info: Completed monitoring checks.
+20:24:56 - info: About to run monitoring checks
+20:24:56 - info: Healthcheck App Started.  Live at Port 8006.
+20:24:57 - info: Called BBC Website.  Response Code : 200.  Response Time : 557.
+20:24:57 - info: Called Google Website.  Response Code : 200.  Response Time : 202.
+20:24:57 - info: Called Sky Website.  Response Code : 200.  Response Time : 193.
+20:24:57 - info: Called Weather API.  Response Code : 200.  Response Time : 157.
+20:25:01 - info: Called Open Library API.  Response Code : 200.  Response Time : 3660.
+20:25:01 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 41.966.
+20:25:01 - info: Completed monitoring checks.
+20:25:30 - info: About to run monitoring checks
+20:25:30 - info: Healthcheck App Started.  Live at Port 8006.
+20:25:31 - info: Called BBC Website.  Response Code : 200.  Response Time : 720.
+20:25:31 - info: Called Google Website.  Response Code : 200.  Response Time : 259.
+20:25:31 - info: Called Sky Website.  Response Code : 200.  Response Time : 207.
+20:25:31 - info: Called Weather API.  Response Code : 200.  Response Time : 155.
+20:25:34 - info: Receive runMonitor request
+20:25:34 - info: About to run monitoring checks
+20:25:35 - info: About to run monitoring checks
+20:25:35 - info: Called Open Library API.  Response Code : 200.  Response Time : 3288.
+20:25:35 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.623.
+20:25:35 - info: Completed monitoring checks.
+20:25:35 - info: Called BBC Website.  Response Code : 200.  Response Time : 468.
+20:25:35 - info: Called BBC Website.  Response Code : 200.  Response Time : 485.
+20:25:35 - info: Called Google Website.  Response Code : 200.  Response Time : 238.
+20:25:35 - info: Called Google Website.  Response Code : 200.  Response Time : 258.
+20:25:35 - info: Called Sky Website.  Response Code : 200.  Response Time : 165.
+20:25:35 - info: Called Sky Website.  Response Code : 200.  Response Time : 190.
+20:25:36 - info: Called Weather API.  Response Code : 200.  Response Time : 300.
+20:25:36 - info: Called Weather API.  Response Code : 200.  Response Time : 275.
+20:25:38 - info: Called Open Library API.  Response Code : 200.  Response Time : 1827.
+20:25:38 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 28.426.
+20:25:38 - info: Completed monitoring checks.
+20:25:38 - info: Called Open Library API.  Response Code : 200.  Response Time : 1970.
+20:25:38 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.992.
+20:25:38 - info: Completed monitoring checks.
+20:26:27 - info: About to run monitoring checks
+20:26:27 - info: Healthcheck App Started.  Live at Port 8006.
+20:26:27 - info: Called BBC Website.  Response Code : 200.  Response Time : 480.
+20:26:27 - info: Called Google Website.  Response Code : 200.  Response Time : 216.
+20:26:28 - info: Called Sky Website.  Response Code : 200.  Response Time : 172.
+20:26:28 - info: Called Weather API.  Response Code : 200.  Response Time : 132.
+20:26:30 - info: Called Open Library API.  Response Code : 200.  Response Time : 2535.
+20:26:30 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 25.720.
+20:26:30 - info: Completed monitoring checks.
+20:26:43 - info: Healthcheck App Started.  Live at Port 8006.
+20:26:48 - info: Receive runMonitor request
+20:26:48 - info: About to run monitoring checks
+20:26:49 - info: Called BBC Website.  Response Code : 200.  Response Time : 464.
+20:26:49 - info: Called Google Website.  Response Code : 200.  Response Time : 223.
+20:26:49 - info: Called Sky Website.  Response Code : 200.  Response Time : 158.
+20:26:49 - info: Called Weather API.  Response Code : 200.  Response Time : 129.
+20:26:52 - info: Called Open Library API.  Response Code : 200.  Response Time : 3217.
+20:26:52 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.403.
+20:26:52 - info: Completed monitoring checks.
+20:28:01 - info: Healthcheck App Started.  Live at Port 8006.
+20:28:05 - info: Receive runMonitor request
+20:28:05 - info: About to run monitoring checks
+20:28:06 - info: Called BBC Website.  Response Code : 200.  Response Time : 705.
+20:28:06 - info: Called Google Website.  Response Code : 200.  Response Time : 222.
+20:28:06 - info: Called Sky Website.  Response Code : 200.  Response Time : 190.
+20:28:07 - info: Called Weather API.  Response Code : 200.  Response Time : 203.
+20:28:09 - info: Called Open Library API.  Response Code : 200.  Response Time : 2655.
+20:28:09 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 27.472.
+20:28:09 - info: Completed monitoring checks.
+20:28:09 - info: [{"name":"BBC Website","description":"Ping BBC's website","checkType":"website","url":"http://www.bbc.co.uk","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":800},"responseDetails":{"responseCode":200,"responseTime":705}},{"name":"Google Website","description":"Ping Google's website","checkType":"website","url":"http://www.google.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":222}},{"name":"Sky Website","description":"Ping Sky's website","checkType":"website","url":"http://www.sky.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":190}},{"name":"Weather API","description":"Ping Weather API","checkType":"service","url":"https://www.metaweather.com/api/location/search/?query=manchester","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":500},"responseDetails":{"responseCode":200,"responseTime":203}},{"name":"Open Library API","description":"Ping Open Library API","checkType":"service","url":"https://openlibrary.org/subjects/history","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":2000},"responseDetails":{"responseCode":200,"responseTime":2655}},{"name":"Google IP Ping","description":"Ping Google's IP Addresss","checkType":"server","url":"172.217.16.68","expectedResults":{"expectedStatusCode":"Alive","expectedMaxResponseTime":100},"responseDetails":{"responseCode":"Alive","responseTime":27.472}}]
+20:30:00 - info: Healthcheck App Started.  Live at Port 8006.
+20:30:05 - info: Receive runMonitor request
+20:30:57 - info: Healthcheck App Started.  Live at Port 8006.
+20:30:57 - info: Receive runMonitor request
+20:31:12 - info: Receive runMonitor request
+20:32:43 - info: Healthcheck App Started.  Live at Port 8006.
+20:32:43 - info: Receive runMonitor request
+20:32:43 - info: About to run monitoring checks
+20:32:43 - info: Called BBC Website.  Response Code : 200.  Response Time : 479.
+20:32:43 - info: Called Google Website.  Response Code : 200.  Response Time : 251.
+20:32:44 - info: Called Sky Website.  Response Code : 200.  Response Time : 279.
+20:32:44 - info: Called Weather API.  Response Code : 200.  Response Time : 162.
+20:32:48 - info: Called Open Library API.  Response Code : 200.  Response Time : 4358.
+20:32:48 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 35.997.
+20:32:48 - info: Completed monitoring checks.
+20:32:48 - info: [{"name":"BBC Website","description":"Ping BBC's website","checkType":"website","url":"http://www.bbc.co.uk","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":800},"responseDetails":{"responseCode":200,"responseTime":479}},{"name":"Google Website","description":"Ping Google's website","checkType":"website","url":"http://www.google.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":251}},{"name":"Sky Website","description":"Ping Sky's website","checkType":"website","url":"http://www.sky.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":279}},{"name":"Weather API","description":"Ping Weather API","checkType":"service","url":"https://www.metaweather.com/api/location/search/?query=manchester","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":500},"responseDetails":{"responseCode":200,"responseTime":162}},{"name":"Open Library API","description":"Ping Open Library API","checkType":"service","url":"https://openlibrary.org/subjects/history","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":2000},"responseDetails":{"responseCode":200,"responseTime":4358}},{"name":"Google IP Ping","description":"Ping Google's IP Addresss","checkType":"server","url":"172.217.16.68","expectedResults":{"expectedStatusCode":"Alive","expectedMaxResponseTime":100},"responseDetails":{"responseCode":"Alive","responseTime":35.997}}]
+20:33:01 - info: Healthcheck App Started.  Live at Port 8006.
+20:33:05 - info: Receive runMonitor request
+20:33:05 - info: About to run monitoring checks
+20:33:06 - info: Called BBC Website.  Response Code : 200.  Response Time : 573.
+20:33:06 - info: Called Google Website.  Response Code : 200.  Response Time : 209.
+20:33:06 - info: Called Sky Website.  Response Code : 200.  Response Time : 221.
+20:33:07 - info: Called Weather API.  Response Code : 200.  Response Time : 250.
+20:33:10 - info: Called Open Library API.  Response Code : 200.  Response Time : 3352.
+20:33:10 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.064.
+20:33:10 - info: Completed monitoring checks.
+20:33:10 - info: [{"name":"BBC Website","description":"Ping BBC's website","checkType":"website","url":"http://www.bbc.co.uk","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":800},"responseDetails":{"responseCode":200,"responseTime":573}},{"name":"Google Website","description":"Ping Google's website","checkType":"website","url":"http://www.google.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":209}},{"name":"Sky Website","description":"Ping Sky's website","checkType":"website","url":"http://www.sky.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":221}},{"name":"Weather API","description":"Ping Weather API","checkType":"service","url":"https://www.metaweather.com/api/location/search/?query=manchester","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":500},"responseDetails":{"responseCode":200,"responseTime":250}},{"name":"Open Library API","description":"Ping Open Library API","checkType":"service","url":"https://openlibrary.org/subjects/history","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":2000},"responseDetails":{"responseCode":200,"responseTime":3352}},{"name":"Google IP Ping","description":"Ping Google's IP Addresss","checkType":"server","url":"172.217.16.68","expectedResults":{"expectedStatusCode":"Alive","expectedMaxResponseTime":100},"responseDetails":{"responseCode":"Alive","responseTime":26.064}}]
+20:33:10 - error:  TypeError: Cannot read property 'send' of undefined
+    at /Users/chrisadams/projects/system-healthcheck/index.js:26:9
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+20:35:17 - info: Healthcheck App Started.  Live at Port 8006.
+20:35:24 - info: Receive runMonitor request
+20:35:24 - info: About to run monitoring checks
+20:35:24 - info: Called BBC Website.  Response Code : 200.  Response Time : 719.
+20:35:25 - info: Called Google Website.  Response Code : 200.  Response Time : 258.
+20:35:25 - info: Called Sky Website.  Response Code : 200.  Response Time : 220.
+20:35:25 - info: Called Weather API.  Response Code : 200.  Response Time : 166.
+20:35:28 - info: Called Open Library API.  Response Code : 200.  Response Time : 2938.
+20:35:28 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 27.766.
+20:35:28 - info: Completed monitoring checks.
+20:35:28 - info: [{"name":"BBC Website","description":"Ping BBC's website","checkType":"website","url":"http://www.bbc.co.uk","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":800},"responseDetails":{"responseCode":200,"responseTime":719}},{"name":"Google Website","description":"Ping Google's website","checkType":"website","url":"http://www.google.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":258}},{"name":"Sky Website","description":"Ping Sky's website","checkType":"website","url":"http://www.sky.com","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":600},"responseDetails":{"responseCode":200,"responseTime":220}},{"name":"Weather API","description":"Ping Weather API","checkType":"service","url":"https://www.metaweather.com/api/location/search/?query=manchester","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":500},"responseDetails":{"responseCode":200,"responseTime":166}},{"name":"Open Library API","description":"Ping Open Library API","checkType":"service","url":"https://openlibrary.org/subjects/history","expectedResults":{"expectedStatusCode":200,"expectedResponseTime":2000},"responseDetails":{"responseCode":200,"responseTime":2938}},{"name":"Google IP Ping","description":"Ping Google's IP Addresss","checkType":"server","url":"172.217.16.68","expectedResults":{"expectedStatusCode":"Alive","expectedMaxResponseTime":100},"responseDetails":{"responseCode":"Alive","responseTime":27.766}}]
+20:37:24 - info: Healthcheck App Started.  Live at Port 8006.
+20:38:09 - info: Receive runMonitor request
+20:38:09 - info: About to run monitoring checks
+20:38:10 - info: Called BBC Website.  Response Code : 200.  Response Time : 845.
+20:38:10 - info: Called Google Website.  Response Code : 200.  Response Time : 279.
+20:38:10 - info: Called Sky Website.  Response Code : 200.  Response Time : 192.
+20:38:10 - info: Called Weather API.  Response Code : 200.  Response Time : 153.
+20:38:13 - info: Called Open Library API.  Response Code : 200.  Response Time : 3143.
+20:38:13 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 31.739.
+20:38:13 - info: Completed monitoring checks.
+20:50:15 - info: Healthcheck App Started.  Live at Port 8006.
+20:50:25 - info: Receive runMonitor request
+21:19:25 - info: Healthcheck App Started.  Live at Port 8006.
+21:19:31 - info: Receive runMonitor request
+21:21:31 - info: Receive runMonitor request
+21:24:15 - info: Healthcheck App Started.  Live at Port 8006.
+21:24:20 - info: Receive runMonitor request
+21:24:22 - info: Receive runMonitor request
+21:24:54 - info: Healthcheck App Started.  Live at Port 8006.
+21:24:59 - info: Receive runMonitor request
+21:24:59 - info: About to run monitoring checks
+21:24:59 - info: Called BBC Website.  Response Code : 200.  Response Time : 635.
+21:25:00 - info: Called Google Website.  Response Code : 200.  Response Time : 233.
+21:25:00 - info: Called Sky Website.  Response Code : 200.  Response Time : 190.
+21:25:00 - info: Called Weather API.  Response Code : 200.  Response Time : 263.
+21:25:04 - info: Called Open Library API.  Response Code : 200.  Response Time : 4117.
+21:25:04 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.574.
+21:25:04 - info: Completed monitoring checks.
+21:25:38 - info: Healthcheck App Started.  Live at Port 8006.
+21:25:41 - info: Receive runMonitor request
+21:25:41 - info: About to run monitoring checks
+21:25:42 - info: Called BBC Website.  Response Code : 200.  Response Time : 716.
+21:25:42 - info: Called Google Website.  Response Code : 200.  Response Time : 244.
+21:25:42 - info: Called Sky Website.  Response Code : 200.  Response Time : 168.
+21:25:42 - info: Called Weather API.  Response Code : 200.  Response Time : 205.
+21:25:45 - info: Called Open Library API.  Response Code : 200.  Response Time : 2838.
+21:25:45 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.703.
+21:25:45 - info: Completed monitoring checks.
+21:27:30 - info: Healthcheck App Started.  Live at Port 8006.
+21:27:34 - info: Receive runMonitor request
+21:27:34 - info: About to run monitoring checks
+21:27:34 - info: Called BBC Website.  Response Code : 200.  Response Time : 447.
+21:27:34 - info: Called Google Website.  Response Code : 200.  Response Time : 246.
+21:27:35 - info: Called Sky Website.  Response Code : 200.  Response Time : 177.
+21:27:35 - info: Called Weather API.  Response Code : 200.  Response Time : 248.
+21:27:38 - info: Called Open Library API.  Response Code : 200.  Response Time : 2766.
+21:27:38 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 26.809.
+21:27:38 - info: Completed monitoring checks.
+21:36:46 - info: Healthcheck App Started.  Live at Port 8006.
+21:36:50 - info: Receive runMonitor request
+21:36:50 - info: About to run monitoring checks
+21:36:50 - info: Called BBC Website.  Response Code : 200.  Response Time : 692.
+21:36:51 - info: Called Google Website.  Response Code : 200.  Response Time : 321.
+21:36:51 - info: Called Sky Website.  Response Code : 200.  Response Time : 289.
+21:36:51 - info: Called Weather API.  Response Code : 200.  Response Time : 149.
+21:36:54 - info: Called Open Library API.  Response Code : 200.  Response Time : 3019.
+21:36:54 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 28.734.
+21:36:54 - info: Completed monitoring checks.
+21:37:07 - info: Receive getItems request
+21:37:40 - info: Healthcheck App Started.  Live at Port 8006.
+21:37:45 - info: Receive getItems request
+21:38:02 - info: Receive runMonitor request
+21:38:02 - info: About to run monitoring checks
+21:38:03 - info: Called BBC Website.  Response Code : 200.  Response Time : 729.
+21:38:03 - info: Called Google Website.  Response Code : 200.  Response Time : 225.
+21:38:03 - info: Called Sky Website.  Response Code : 200.  Response Time : 276.
+21:38:03 - info: Called Weather API.  Response Code : 200.  Response Time : 193.
+21:38:07 - info: Called Open Library API.  Response Code : 200.  Response Time : 3186.
+21:38:07 - info: Called Google IP Ping.  Response Code : Alive.  Response Time : 32.621.
+21:38:07 - info: Completed monitoring checks.
+21:45:41 - info: Healthcheck App Started.  Live at Port 8006.
+21:45:54 - info: Healthcheck App Started.  Live at Port 8006.
+21:48:11 - info: Healthcheck App Started.  Live at Port 8006.
+21:49:21 - info: Healthcheck App Started.  Live at Port 8006.
+21:49:39 - info: Healthcheck App Started.  Live at Port 8006.
+21:50:22 - info: Healthcheck App Started.  Live at Port 8006.
+21:50:25 - info: Healthcheck App Started.  Live at Port 8006.
+21:50:34 - info: Receive runMonitor request
+21:50:34 - info: About to run monitoring checks
+21:50:34 - info:     Called BBC Website.  Response Code : 200.  Response Time : 753.
+21:50:35 - info:     Called Google Website.  Response Code : 200.  Response Time : 333.
+21:50:35 - info:     Called Sky Website.  Response Code : 200.  Response Time : 216.
+21:50:35 - info:     Called Weather API.  Response Code : 200.  Response Time : 258.
+21:50:39 - info:     Called Open Library API.  Response Code : 200.  Response Time : 3684.
+21:50:39 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 26.700.
+21:50:39 - info: Completed monitoring checks.
+21:51:38 - info: Receive runMonitor request
+21:51:38 - info: About to run monitoring checks
+21:51:39 - info:     Called BBC Website.  Response Code : 200.  Response Time : 836.
+21:51:39 - info:     Called Google Website.  Response Code : 200.  Response Time : 337.
+21:51:40 - info:     Called Sky Website.  Response Code : 200.  Response Time : 230.
+21:51:40 - info:     Called Weather API.  Response Code : 200.  Response Time : 175.
+21:51:43 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2953.
+21:51:43 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 37.622.
+21:51:43 - info: Completed monitoring checks.
+21:53:40 - info: Healthcheck App Started.  Live at Port 8006.
+21:55:39 - info: Healthcheck App Started.  Live at Port 8006.
+21:58:19 - info: Healthcheck App Started.  Live at Port 8006.
+22:08:11 - info: Healthcheck App Started.  Live at Port 8006.
+22:09:06 - info: Healthcheck App Started.  Live at Port 8006.
+22:12:07 - info: Healthcheck App Started.  Live at Port 8006.
+22:20:13 - info: Healthcheck App Started.  Live at Port 8006.
+22:20:16 - info: Healthcheck App Started.  Live at Port 8006.
+22:20:50 - info: Healthcheck App Started.  Live at Port 8006.
+22:21:24 - info: Healthcheck App Started.  Live at Port 8006.
+22:21:37 - info: Healthcheck App Started.  Live at Port 8006.
+22:24:54 - info: Healthcheck App Started.  Live at Port 8006.
+22:27:40 - info: Healthcheck App Started.  Live at Port 8006.
+22:29:34 - info: Healthcheck App Started.  Live at Port 8006.
+22:31:04 - info: Healthcheck App Started.  Live at Port 8006.
+22:34:05 - info: Healthcheck App Started.  Live at Port 8006.
+22:39:18 - info: Healthcheck App Started.  Live at Port 8006.
+22:40:23 - info: Healthcheck App Started.  Live at Port 8006.
+22:42:49 - info: Healthcheck App Started.  Live at Port 8006.
+22:43:19 - info: Healthcheck App Started.  Live at Port 8006.
+22:44:17 - info: Healthcheck App Started.  Live at Port 8006.
+22:44:28 - info: Healthcheck App Started.  Live at Port 8006.
+22:45:21 - info: Healthcheck App Started.  Live at Port 8006.
+22:45:47 - info: Healthcheck App Started.  Live at Port 8006.
+22:47:19 - info: Healthcheck App Started.  Live at Port 8006.
+22:48:18 - info: Healthcheck App Started.  Live at Port 8006.
+22:51:19 - info: Healthcheck App Started.  Live at Port 8006.
+22:51:24 - info: Healthcheck App Started.  Live at Port 8006.
+22:59:43 - info: Healthcheck App Started.  Live at Port 8006.
+23:01:25 - info: Healthcheck App Started.  Live at Port 8006.
+23:01:29 - info: Receive runMonitor request
+23:01:29 - info: About to run monitoring checks
+23:01:29 - info:     Called BBC Website.  Response Code : 200.  Response Time : 717.
+23:01:30 - info:     Called Google Website.  Response Code : 200.  Response Time : 224.
+23:01:30 - info:     Called Sky Website.  Response Code : 200.  Response Time : 201.
+23:01:30 - info:     Called Weather API.  Response Code : 200.  Response Time : 274.
+23:01:33 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2815.
+23:01:33 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 159.883.
+23:01:33 - info: Completed monitoring checks.
+23:18:44 - info: Healthcheck App Started.  Live at Port 8006.
+23:31:36 - info: Healthcheck App Started.  Live at Port 8006.
+23:31:37 - info: About to run monitoring checks
+23:31:38 - info:     Called BBC Website.  Response Code : 200.  Response Time : 493.
+23:31:38 - info:     Called Google Website.  Response Code : 200.  Response Time : 316.
+23:31:38 - info:     Called Sky Website.  Response Code : 200.  Response Time : 312.
+23:31:38 - info:     Called Weather API.  Response Code : 200.  Response Time : 196.
+23:31:39 - info: About to run monitoring checks
+23:31:39 - info:     Called BBC Website.  Response Code : 200.  Response Time : 355.
+23:31:39 - info:     Called Google Website.  Response Code : 200.  Response Time : 326.
+23:31:39 - info:     Called Sky Website.  Response Code : 200.  Response Time : 161.
+23:31:40 - info:     Called Weather API.  Response Code : 200.  Response Time : 146.
+23:31:40 - info: About to run monitoring checks
+23:31:41 - info:     Called BBC Website.  Response Code : 200.  Response Time : 393.
+23:31:41 - info:     Called Google Website.  Response Code : 200.  Response Time : 207.
+23:31:41 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2388.
+23:31:41 - info:     Called Sky Website.  Response Code : 200.  Response Time : 130.
+23:31:41 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 28.450.
+23:31:41 - info: Completed monitoring checks.
+23:31:41 - info:     Called Weather API.  Response Code : 200.  Response Time : 161.
+23:31:41 - info:     Called Open Library API.  Response Code : 200.  Response Time : 1836.
+23:31:41 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 28.119.
+23:31:41 - info: Completed monitoring checks.
+23:31:42 - info: About to run monitoring checks
+23:31:42 - info:     Called BBC Website.  Response Code : 200.  Response Time : 344.
+23:31:42 - info:     Called Google Website.  Response Code : 200.  Response Time : 215.
+23:31:42 - info:     Called Sky Website.  Response Code : 200.  Response Time : 164.
+23:31:43 - info:     Called Weather API.  Response Code : 200.  Response Time : 156.
+23:31:43 - info: About to run monitoring checks
+23:31:44 - info:     Called BBC Website.  Response Code : 200.  Response Time : 379.
+23:31:44 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2627.
+23:31:44 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 78.319.
+23:31:44 - info: Completed monitoring checks.
+23:31:44 - info:     Called Google Website.  Response Code : 200.  Response Time : 243.
+23:31:44 - info:     Called Sky Website.  Response Code : 200.  Response Time : 158.
+23:31:44 - info:     Called Weather API.  Response Code : 200.  Response Time : 97.
+23:31:45 - info: About to run monitoring checks
+23:31:45 - info:     Called BBC Website.  Response Code : 200.  Response Time : 409.
+23:31:45 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2611.
+23:31:45 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 55.574.
+23:31:45 - info: Completed monitoring checks.
+23:31:45 - info:     Called Google Website.  Response Code : 200.  Response Time : 274.
+23:31:45 - info:     Called Sky Website.  Response Code : 200.  Response Time : 157.
+23:31:46 - info:     Called Weather API.  Response Code : 200.  Response Time : 132.
+23:31:46 - info:     Called Open Library API.  Response Code : 200.  Response Time : 1773.
+23:31:46 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 25.943.
+23:31:46 - info: Completed monitoring checks.
+23:31:46 - info: About to run monitoring checks
+23:31:47 - info:     Called BBC Website.  Response Code : 200.  Response Time : 666.
+23:31:47 - info:     Called Google Website.  Response Code : 200.  Response Time : 296.
+23:31:47 - info:     Called Sky Website.  Response Code : 200.  Response Time : 283.
+23:31:48 - info:     Called Open Library API.  Response Code : 200.  Response Time : 1926.
+23:31:48 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 78.099.
+23:31:48 - info: Completed monitoring checks.
+23:31:48 - info: About to run monitoring checks
+23:31:48 - info:     Called Weather API.  Response Code : 200.  Response Time : 343.
+23:31:48 - info:     Called BBC Website.  Response Code : 200.  Response Time : 836.
+23:31:49 - info:     Called Google Website.  Response Code : 200.  Response Time : 205.
+23:31:49 - info:     Called Sky Website.  Response Code : 200.  Response Time : 240.
+23:31:49 - info:     Called Weather API.  Response Code : 200.  Response Time : 94.
+23:31:49 - info: About to run monitoring checks
+23:31:50 - info:     Called BBC Website.  Response Code : 200.  Response Time : 603.
+23:31:50 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2287.
+23:31:50 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 35.178.
+23:31:50 - info: Completed monitoring checks.
+23:31:50 - info:     Called Google Website.  Response Code : 200.  Response Time : 515.
+23:31:51 - info: About to run monitoring checks
+23:31:51 - info: Healthcheck App Started.  Live at Port 8006.
+23:32:21 - info: About to run monitoring checks
+23:32:22 - info:     Called BBC Website.  Response Code : 200.  Response Time : 584.
+23:32:22 - info:     Called Google Website.  Response Code : 200.  Response Time : 205.
+23:32:22 - info:     Called Sky Website.  Response Code : 200.  Response Time : 154.
+23:32:22 - info:     Called Weather API.  Response Code : 200.  Response Time : 186.
+23:32:25 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2491.
+23:32:25 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 143.904.
+23:32:25 - info: Completed monitoring checks.
+23:32:51 - info: About to run monitoring checks
+23:32:52 - info:     Called BBC Website.  Response Code : 200.  Response Time : 430.
+23:32:52 - info:     Called Google Website.  Response Code : 200.  Response Time : 218.
+23:32:52 - info:     Called Sky Website.  Response Code : 200.  Response Time : 220.
+23:32:52 - info:     Called Weather API.  Response Code : 200.  Response Time : 151.
+23:32:54 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2253.
+23:32:54 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 26.436.
+23:32:54 - info: Completed monitoring checks.
+23:33:08 - info: Healthcheck App Started.  Live at Port 8006.
+23:33:38 - info: Running monitor from interval
+23:33:38 - info: About to run monitoring checks
+23:33:39 - info:     Called BBC Website.  Response Code : 200.  Response Time : 407.
+23:33:39 - info:     Called Google Website.  Response Code : 200.  Response Time : 201.
+23:33:39 - info:     Called Sky Website.  Response Code : 200.  Response Time : 154.
+23:33:39 - info:     Called Weather API.  Response Code : 200.  Response Time : 112.
+23:33:41 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2250.
+23:33:41 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 25.672.
+23:33:41 - info: Completed monitoring checks.
+23:34:08 - info: Running monitor from interval
+23:34:08 - info: About to run monitoring checks
+23:34:09 - info:     Called BBC Website.  Response Code : 200.  Response Time : 436.
+23:34:09 - info:     Called Google Website.  Response Code : 200.  Response Time : 214.
+23:34:09 - info:     Called Sky Website.  Response Code : 200.  Response Time : 159.
+23:34:09 - info:     Called Weather API.  Response Code : 200.  Response Time : 122.
+23:34:11 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2273.
+23:34:11 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 25.860.
+23:34:11 - info: Completed monitoring checks.
+23:34:38 - info: Running monitor from interval
+23:34:38 - info: About to run monitoring checks
+23:34:39 - info:     Called BBC Website.  Response Code : 200.  Response Time : 489.
+23:34:39 - info:     Called Google Website.  Response Code : 200.  Response Time : 233.
+23:34:39 - info:     Called Sky Website.  Response Code : 200.  Response Time : 152.
+23:34:39 - info:     Called Weather API.  Response Code : 200.  Response Time : 93.
+23:34:41 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2183.
+23:34:41 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 31.222.
+23:34:41 - info: Completed monitoring checks.
+23:35:08 - info: Running monitor from interval
+23:35:08 - info: About to run monitoring checks
+23:35:09 - info:     Called BBC Website.  Response Code : 200.  Response Time : 782.
+23:35:09 - info:     Called Google Website.  Response Code : 200.  Response Time : 287.
+23:35:10 - info:     Called Sky Website.  Response Code : 200.  Response Time : 539.
+23:35:10 - info:     Called Weather API.  Response Code : 200.  Response Time : 233.
+23:35:12 - info:     Called Open Library API.  Response Code : 200.  Response Time : 2396.
+23:35:13 - info:     Called Google IP Ping.  Response Code : Alive.  Response Time : 42.026.
+23:35:13 - info: Completed monitoring checks.
+23:35:24 - info: Healthcheck App Started.  Live at Port 8006.

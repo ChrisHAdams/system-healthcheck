@@ -1,0 +1,580 @@
+
+website - BBC Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Google Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Sky Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+================================================================================
+website - BBC Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Google Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Sky Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+================================================================================
+website - BBC Website.
+                            Status Code - 200.
+                            Response Time - 440ms.
+website - Google Website.
+                            Status Code - 200.
+                            Response Time - 227ms.
+website - Sky Website.
+                            Status Code - 200.
+                            Response Time - 165ms.
+================================================================================
+website - BBC Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Google Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Sky Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+================================================================================
+
+
+
+0\2\2018 : 8:16:37
+website - BBC Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Google Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+website - Sky Website.
+                            Status Code - undefined.
+                            Response Time - undefinedms.
+================================================================================
+
+0\2\2018 : 8:34:44
+website - BBC Website.
+                            Status Code - 200.
+                            Response Time - 533ms.
+website - Google Website.
+                            Status Code - 200.
+                            Response Time - 228ms.
+website - Sky Website.
+                            Status Code - 200.
+                            Response Time - 191ms.
+================================================================================
+
+18\2\2018 : 8:49:15
+website - BBC Website.
+                            Status Code - 200.
+                            Response Time - 584ms.
+website - Google Website.
+                            Status Code - 200.
+                            Response Time - 235ms.
+website - Sky Website.
+                            Status Code - 200.
+                            Response Time - 180ms.
+================================================================================
+
+18\3\2018 : 8:49:53
+website - BBC Website.
+                            Status Code - 200.
+                            Response Time - 579ms.
+website - Google Website.
+                            Status Code - 200.
+                            Response Time - 221ms.
+website - Sky Website.
+                            Status Code - 200.
+                            Response Time - 159ms.
+================================================================================
+
+18\3\2018 : 8:51:48
+website - BBC Website.  Status Code - 200.  Response Time - 466ms.
+website - Google Website.  Status Code - 200.  Response Time - 230ms.
+website - Sky Website.  Status Code - 200.  Response Time - 179ms.
+================================================================================
+
+18\3\2018 : 8:54:12
+website - BBC Website.  Status Code - 200.  Response Time - 452ms.
+website - Google Website.  Status Code - 200.  Response Time - 204ms.
+website - Sky Website.  Status Code - 200.  Response Time - 167ms.
+================================================================================
+
+18\3\2018 : 8:59:25
+website - BBC Website.  Status Code - 200.  Response Time - 686ms.
+website - Google Website.  Status Code - 200.  Response Time - 254ms.
+website - Sky Website.  Status Code - 200.  Response Time - 178ms.
+================================================================================
+
+18\3\2018 : 9:1:38
+website - BBC Website.  Status Code - 200.  Response Time - 504ms.
+website - Google Website.  Status Code - 200.  Response Time - 227ms.
+website - Sky Website.  Status Code - 200.  Response Time - 213ms.
+================================================================================
+
+18\3\2018 : 9:9:53
+website - BBC Website.  Status Code - 200.  Response Time - 460ms.
+website - Google Website.  Status Code - 200.  Response Time - 221ms.
+website - Sky Website.  Status Code - 200.  Response Time - 159ms.
+================================================================================
+
+
+
+018\03\18 : 09:023:057
+website - BBC Website.  Status Code - 200.  Response Time - 453ms.
+website - Google Website.  Status Code - 200.  Response Time - 213ms.
+website - Sky Website.  Status Code - 200.  Response Time - 147ms.
+================================================================================
+
+018\03\18 : 09:024:047
+website - BBC Website.  Status Code - 200.  Response Time - 496ms.
+website - Google Website.  Status Code - 200.  Response Time - 249ms.
+website - Sky Website.  Status Code - 200.  Response Time - 201ms.
+================================================================================
+
+18\03\2018 : 09:26:45
+website - BBC Website.  Status Code - 200.  Response Time - 453ms.
+website - Google Website.  Status Code - 200.  Response Time - 219ms.
+website - Sky Website.  Status Code - 200.  Response Time - 175ms.
+================================================================================
+
+18\03\2018 : 09:32:32
+website - BBC Website.  Status Code - 200.  Response Time - 582ms.
+website - Google Website.  Status Code - 200.  Response Time - 234ms.
+website - Sky Website.  Status Code - 200.  Response Time - 175ms.
+
+18\03\2018 : 09:34:53
+website - BBC Website.  Status Code - 200.  Response Time - 575ms.
+website - Google Website.  Status Code - 200.  Response Time - 218ms.
+website - Sky Website.  Status Code - 200.  Response Time - 168ms.
+service - Weather API.  Status Code - 200.  Response Time - 301ms.
+================================================================================
+
+18\03\2018 : 09:35:35
+website - BBC Website.  Status Code - 200.  Response Time - 557ms.
+website - Google Website.  Status Code - 200.  Response Time - 208ms.
+website - Sky Website.  Status Code - 200.  Response Time - 171ms.
+service - Weather API.  Status Code - 200.  Response Time - 337ms.
+================================================================================
+
+18\03\2018 : 09:40:46
+website - BBC Website.  Status Code - 200.  Response Time - 459ms.
+website - Google Website.  Status Code - 200.  Response Time - 229ms.
+website - Sky Website.  Status Code - 200.  Response Time - 166ms.
+service - Weather API.  Status Code - 200.  Response Time - 422ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2304ms.
+================================================================================
+
+18\03\2018 : 09:47:33
+website - BBC Website.  Status Code - 200.  Response Time - 502ms.
+website - Google Website.  Status Code - 200.  Response Time - 226ms.
+website - Sky Website.  Status Code - 200.  Response Time - 166ms.
+service - Weather API.  Status Code - 200.  Response Time - 318ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2413ms.
+================================================================================
+
+18\03\2018 : 09:58:02
+website - BBC Website.  Status Code - 200.  Response Time - 520ms.
+website - Google Website.  Status Code - 200.  Response Time - 347ms.
+website - Sky Website.  Status Code - 200.  Response Time - 194ms.
+service - Weather API.  Status Code - 200.  Response Time - 251ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2706ms.
+================================================================================
+
+18\03\2018 : 11:22:59
+website - BBC Website.  Status Code - 200.  Response Time - 575ms.
+website - Google Website.  Status Code - 200.  Response Time - 236ms.
+website - Sky Website.  Status Code - 200.  Response Time - 176ms.
+service - Weather API.  Status Code - 200.  Response Time - 254ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2725ms.
+
+18\03\2018 : 13:17:41
+website - BBC Website.  Status Code - 200.  Response Time - 498ms.
+website - Google Website.  Status Code - 200.  Response Time - 225ms.
+website - Sky Website.  Status Code - 200.  Response Time - 162ms.
+service - Weather API.  Status Code - 200.  Response Time - 124ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2380ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 28ms.
+================================================================================
+
+18\03\2018 : 13:55:18
+website - BBC Website.  Status Code - 200.  Response Time - 536ms.
+website - Google Website.  Status Code - 200.  Response Time - 240ms.
+website - Sky Website.  Status Code - 200.  Response Time - 185ms.
+service - Weather API.  Status Code - 200.  Response Time - 197ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3407ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 27.587ms.
+================================================================================
+
+18\03\2018 : 15:33:59
+website - BBC Website.  Status Code - 200.  Response Time - 2237ms.
+website - Google Website.  Status Code - 200.  Response Time - 431ms.
+website - Sky Website.  Status Code - 200.  Response Time - 306ms.
+service - Weather API.  Status Code - 200.  Response Time - 387ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2643ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 29.737ms.
+================================================================================
+
+18\03\2018 : 15:36:49
+website - BBC Website.  Status Code - 200.  Response Time - 561ms.
+website - Google Website.  Status Code - 200.  Response Time - 243ms.
+website - Sky Website.  Status Code - 200.  Response Time - 192ms.
+service - Weather API.  Status Code - 200.  Response Time - 322ms.
+service - Open Library API.  Status Code - 200.  Response Time - 4870ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 28.37ms.
+================================================================================
+
+18\03\2018 : 16:03:55
+website - BBC Website.  Status Code - 200.  Response Time - 920ms.
+website - Google Website.  Status Code - 200.  Response Time - 368ms.
+website - Sky Website.  Status Code - 200.  Response Time - 274ms.
+service - Weather API.  Status Code - 200.  Response Time - 248ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2734ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.018ms.
+================================================================================
+
+18\03\2018 : 16:04:24
+website - BBC Website.  Status Code - 200.  Response Time - 529ms.
+website - Google Website.  Status Code - 200.  Response Time - 248ms.
+website - Sky Website.  Status Code - 200.  Response Time - 165ms.
+service - Weather API.  Status Code - 200.  Response Time - 112ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2168ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.214ms.
+================================================================================
+
+18\03\2018 : 16:05:33
+website - BBC Website.  Status Code - 200.  Response Time - 787ms.
+website - Google Website.  Status Code - 200.  Response Time - 244ms.
+website - Sky Website.  Status Code - 200.  Response Time - 163ms.
+service - Weather API.  Status Code - 200.  Response Time - 311ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2370ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 32.579ms.
+================================================================================
+
+18\03\2018 : 16:06:31
+website - BBC Website.  Status Code - 200.  Response Time - 1312ms.
+website - Google Website.  Status Code - 200.  Response Time - 365ms.
+website - Sky Website.  Status Code - 200.  Response Time - 542ms.
+service - Weather API.  Status Code - 200.  Response Time - 158ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2626ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 47.071ms.
+================================================================================
+
+18\03\2018 : 16:07:24
+website - BBC Website.  Status Code - 200.  Response Time - 569ms.
+Status Code Check Failed.  Expected 400.  Actual 200.
+website - Google Website.  Status Code - 200.  Response Time - 205ms.
+website - Sky Website.  Status Code - 200.  Response Time - 185ms.
+service - Weather API.  Status Code - 200.  Response Time - 571ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2736ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 25.63ms.
+================================================================================
+
+18\03\2018 : 16:08:23
+website - BBC Website.  Status Code - 200.  Response Time - 1031ms.
+Status Code Check Failed.  Expected 400.  Actual 200.
+website - Google Website.  Status Code - 200.  Response Time - 216ms.
+website - Sky Website.  Status Code - 200.  Response Time - 164ms.
+service - Weather API.  Status Code - 200.  Response Time - 186ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3477ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 28.347ms.
+================================================================================
+
+18\03\2018 : 16:11:00
+website - BBC Website.  Status Code - 200.  Response Time - 530ms.
+
+18\03\2018 : 16:11:17
+website - BBC Website.  Status Code - 200.  Response Time - 604ms.
+Status Code Check Failed.  Expected 400.  Actual 200.
+website - Google Website.  Status Code - 200.  Response Time - 205ms.
+website - Sky Website.  Status Code - 200.  Response Time - 146ms.
+service - Weather API.  Status Code - 200.  Response Time - 238ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3192ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.56ms.
+================================================================================
+
+18\03\2018 : 16:28:45
+website - BBC Website.  Status Code - 200.  Response Time - 984ms.
+    Status Code Check Failed.  Expected 200.  Actual 400.
+    Response Time Check Failed.  Expected 10ms.  Actual 984ms.
+website - Google Website.  Status Code - 200.  Response Time - 425ms.
+website - Sky Website.  Status Code - 200.  Response Time - 507ms.
+    Response Time Check Failed.  Expected 500ms.  Actual 507ms.
+service - Weather API.  Status Code - 200.  Response Time - 282ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2828ms.
+    Response Time Check Failed.  Expected 500ms.  Actual 2828ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 34.82ms.
+================================================================================
+
+18\03\2018 : 16:30:37
+website - BBC Website.  Status Code - 200.  Response Time - 764ms.
+    Response Time Check Failed.  Expected 600ms.  Actual 764ms.
+website - Google Website.  Status Code - 200.  Response Time - 234ms.
+website - Sky Website.  Status Code - 200.  Response Time - 256ms.
+service - Weather API.  Status Code - 200.  Response Time - 229ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3221ms.
+    Response Time Check Failed.  Expected 500ms.  Actual 3221ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 29.932ms.
+================================================================================
+
+18\03\2018 : 16:31:53
+website - BBC Website.  Status Code - 200.  Response Time - 848ms.
+    Response Time Check Failed.  Expected 800ms.  Actual 848ms.
+website - Google Website.  Status Code - 200.  Response Time - 228ms.
+website - Sky Website.  Status Code - 200.  Response Time - 267ms.
+service - Weather API.  Status Code - 200.  Response Time - 225ms.
+service - Open Library API.  Status Code - 200.  Response Time - 4031ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 4031ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 37.747ms.
+================================================================================
+
+18\03\2018 : 20:12:36
+website - BBC Website.  Status Code - 200.  Response Time - 462ms.
+website - Google Website.  Status Code - 200.  Response Time - 229ms.
+website - Sky Website.  Status Code - 200.  Response Time - 172ms.
+service - Weather API.  Status Code - 200.  Response Time - 211ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2373ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2373ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 35.922ms.
+================================================================================
+
+18\03\2018 : 20:21:56
+website - BBC Website.  Status Code - 200.  Response Time - 556ms.
+website - Google Website.  Status Code - 200.  Response Time - 232ms.
+website - Sky Website.  Status Code - 200.  Response Time - 396ms.
+service - Weather API.  Status Code - 200.  Response Time - 211ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2801ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2801ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 29.114ms.
+================================================================================
+
+18\03\2018 : 20:22:36
+website - BBC Website.  Status Code - 200.  Response Time - 620ms.
+website - Google Website.  Status Code - 200.  Response Time - 251ms.
+website - Sky Website.  Status Code - 200.  Response Time - 182ms.
+service - Weather API.  Status Code - 200.  Response Time - 166ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2264ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2264ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 36.178ms.
+================================================================================
+
+18\03\2018 : 20:22:42
+website - BBC Website.  Status Code - 200.  Response Time - 776ms.
+website - Google Website.  Status Code - 200.  Response Time - 271ms.
+website - Sky Website.  Status Code - 200.  Response Time - 237ms.
+service - Weather API.  Status Code - 200.  Response Time - 133ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2174ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2174ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.922ms.
+================================================================================
+
+18\03\2018 : 20:23:33
+website - BBC Website.  Status Code - 200.  Response Time - 642ms.
+website - Google Website.  Status Code - 200.  Response Time - 206ms.
+website - Sky Website.  Status Code - 200.  Response Time - 438ms.
+service - Weather API.  Status Code - 200.  Response Time - 599ms.
+    Response Time Check Failed.  Expected 500ms.  Actual 599ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2447ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2447ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.881ms.
+================================================================================
+
+18\03\2018 : 20:23:47
+website - BBC Website.  Status Code - 200.  Response Time - 592ms.
+website - Google Website.  Status Code - 200.  Response Time - 239ms.
+website - Sky Website.  Status Code - 200.  Response Time - 170ms.
+service - Weather API.  Status Code - 200.  Response Time - 349ms.
+service - Open Library API.  Status Code - 200.  Response Time - 1781ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 29.093ms.
+================================================================================
+
+18\03\2018 : 20:23:47
+website - BBC Website.  Status Code - 200.  Response Time - 592ms.
+website - Google Website.  Status Code - 200.  Response Time - 239ms.
+website - Sky Website.  Status Code - 200.  Response Time - 170ms.
+service - Weather API.  Status Code - 200.  Response Time - 349ms.
+service - Open Library API.  Status Code - 200.  Response Time - 1882ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 37.271ms.
+================================================================================
+
+18\03\2018 : 20:24:56
+website - BBC Website.  Status Code - 200.  Response Time - 557ms.
+website - Google Website.  Status Code - 200.  Response Time - 202ms.
+website - Sky Website.  Status Code - 200.  Response Time - 193ms.
+service - Weather API.  Status Code - 200.  Response Time - 157ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3660ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3660ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 41.966ms.
+================================================================================
+
+18\03\2018 : 20:25:30
+website - BBC Website.  Status Code - 200.  Response Time - 720ms.
+website - Google Website.  Status Code - 200.  Response Time - 259ms.
+website - Sky Website.  Status Code - 200.  Response Time - 207ms.
+service - Weather API.  Status Code - 200.  Response Time - 155ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3288ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3288ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.623ms.
+================================================================================
+
+18\03\2018 : 20:25:34
+website - BBC Website.  Status Code - 200.  Response Time - 485ms.
+website - Google Website.  Status Code - 200.  Response Time - 258ms.
+website - Sky Website.  Status Code - 200.  Response Time - 190ms.
+service - Weather API.  Status Code - 200.  Response Time - 275ms.
+service - Open Library API.  Status Code - 200.  Response Time - 1827ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 28.426ms.
+================================================================================
+
+18\03\2018 : 20:25:35
+website - BBC Website.  Status Code - 200.  Response Time - 485ms.
+website - Google Website.  Status Code - 200.  Response Time - 258ms.
+website - Sky Website.  Status Code - 200.  Response Time - 190ms.
+service - Weather API.  Status Code - 200.  Response Time - 275ms.
+service - Open Library API.  Status Code - 200.  Response Time - 1970ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.992ms.
+================================================================================
+
+18\03\2018 : 20:26:27
+website - BBC Website.  Status Code - 200.  Response Time - 480ms.
+website - Google Website.  Status Code - 200.  Response Time - 216ms.
+website - Sky Website.  Status Code - 200.  Response Time - 172ms.
+service - Weather API.  Status Code - 200.  Response Time - 132ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2535ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2535ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 25.72ms.
+================================================================================
+
+18\03\2018 : 20:26:48
+website - BBC Website.  Status Code - 200.  Response Time - 464ms.
+website - Google Website.  Status Code - 200.  Response Time - 223ms.
+website - Sky Website.  Status Code - 200.  Response Time - 158ms.
+service - Weather API.  Status Code - 200.  Response Time - 129ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3217ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3217ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.403ms.
+================================================================================
+
+18\03\2018 : 20:28:05
+website - BBC Website.  Status Code - 200.  Response Time - 705ms.
+website - Google Website.  Status Code - 200.  Response Time - 222ms.
+website - Sky Website.  Status Code - 200.  Response Time - 190ms.
+service - Weather API.  Status Code - 200.  Response Time - 203ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2655ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2655ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 27.472ms.
+================================================================================
+
+18\03\2018 : 20:32:43
+website - BBC Website.  Status Code - 200.  Response Time - 479ms.
+website - Google Website.  Status Code - 200.  Response Time - 251ms.
+website - Sky Website.  Status Code - 200.  Response Time - 279ms.
+service - Weather API.  Status Code - 200.  Response Time - 162ms.
+service - Open Library API.  Status Code - 200.  Response Time - 4358ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 4358ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 35.997ms.
+================================================================================
+
+18\03\2018 : 20:33:05
+website - BBC Website.  Status Code - 200.  Response Time - 573ms.
+website - Google Website.  Status Code - 200.  Response Time - 209ms.
+website - Sky Website.  Status Code - 200.  Response Time - 221ms.
+service - Weather API.  Status Code - 200.  Response Time - 250ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3352ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3352ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.064ms.
+================================================================================
+
+18\03\2018 : 20:35:24
+website - BBC Website.  Status Code - 200.  Response Time - 719ms.
+website - Google Website.  Status Code - 200.  Response Time - 258ms.
+website - Sky Website.  Status Code - 200.  Response Time - 220ms.
+service - Weather API.  Status Code - 200.  Response Time - 166ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2938ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2938ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 27.766ms.
+================================================================================
+
+18\03\2018 : 20:38:09
+website - BBC Website.  Status Code - 200.  Response Time - 845ms.
+    Response Time Check Failed.  Expected 800ms.  Actual 845ms.
+website - Google Website.  Status Code - 200.  Response Time - 279ms.
+website - Sky Website.  Status Code - 200.  Response Time - 192ms.
+service - Weather API.  Status Code - 200.  Response Time - 153ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3143ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3143ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 31.739ms.
+================================================================================
+
+18\03\2018 : 21:24:59
+website - BBC Website.  Status Code - 200.  Response Time - 635ms.
+website - Google Website.  Status Code - 200.  Response Time - 233ms.
+website - Sky Website.  Status Code - 200.  Response Time - 190ms.
+service - Weather API.  Status Code - 200.  Response Time - 263ms.
+service - Open Library API.  Status Code - 200.  Response Time - 4117ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 4117ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.574ms.
+================================================================================
+
+18\03\2018 : 21:25:41
+website - BBC Website.  Status Code - 200.  Response Time - 716ms.
+website - Google Website.  Status Code - 200.  Response Time - 244ms.
+website - Sky Website.  Status Code - 200.  Response Time - 168ms.
+service - Weather API.  Status Code - 200.  Response Time - 205ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2838ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2838ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.703ms.
+================================================================================
+
+18\03\2018 : 21:27:34
+website - BBC Website.  Status Code - 200.  Response Time - 447ms.
+website - Google Website.  Status Code - 200.  Response Time - 246ms.
+website - Sky Website.  Status Code - 200.  Response Time - 177ms.
+service - Weather API.  Status Code - 200.  Response Time - 248ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2766ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2766ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.809ms.
+================================================================================
+
+18\03\2018 : 21:36:50
+website - BBC Website.  Status Code - 200.  Response Time - 692ms.
+website - Google Website.  Status Code - 200.  Response Time - 321ms.
+website - Sky Website.  Status Code - 200.  Response Time - 289ms.
+service - Weather API.  Status Code - 200.  Response Time - 149ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3019ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3019ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 28.734ms.
+================================================================================
+
+18\03\2018 : 21:38:02
+website - BBC Website.  Status Code - 200.  Response Time - 729ms.
+website - Google Website.  Status Code - 200.  Response Time - 225ms.
+website - Sky Website.  Status Code - 200.  Response Time - 276ms.
+service - Weather API.  Status Code - 200.  Response Time - 193ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3186ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3186ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 32.621ms.
+================================================================================
+
+18\03\2018 : 21:50:34
+website - BBC Website.  Status Code - 200.  Response Time - 753ms.
+website - Google Website.  Status Code - 200.  Response Time - 333ms.
+website - Sky Website.  Status Code - 200.  Response Time - 216ms.
+service - Weather API.  Status Code - 200.  Response Time - 258ms.
+service - Open Library API.  Status Code - 200.  Response Time - 3684ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 3684ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 26.7ms.
+================================================================================
+
+18\03\2018 : 21:51:38
+website - BBC Website.  Status Code - 200.  Response Time - 836ms.
+    Response Time Check Failed.  Expected 800ms.  Actual 836ms.
+website - Google Website.  Status Code - 200.  Response Time - 337ms.
+website - Sky Website.  Status Code - 200.  Response Time - 230ms.
+service - Weather API.  Status Code - 200.  Response Time - 175ms.
+service - Open Library API.  Status Code - 200.  Response Time - 2953ms.
+    Response Time Check Failed.  Expected 2000ms.  Actual 2953ms.
+server - Google IP Ping.  Status Code - Alive.  Response Time - 37.622ms.
+================================================================================
