@@ -24,6 +24,7 @@ function Healthcheck(log) {
   this.itemsToCheck = config.get('healthcheck.items');
   this.sendEmail = config.get('healthcheck.sendEmail');
   this.log = log;
+  log.info(itemsToCheck);
 
   this.getItems = function() {
     return cleanseItems(this.itemsToCheck);
