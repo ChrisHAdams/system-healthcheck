@@ -24,7 +24,7 @@ function Healthcheck(log) {
   this.itemsToCheck = config.get('healthcheck.items');
   this.sendEmail = config.get('healthcheck.sendEmail');
   this.log = log;
-  log.info(itemsToCheck);
+  this.log.info(this.itemsToCheck);
 
   this.getItems = function() {
     return cleanseItems(this.itemsToCheck);
@@ -50,7 +50,7 @@ function Healthcheck(log) {
   }
 
   async function runChecks(items) {
-    log.info("In runChecks");
+    this.log.info("In runChecks");
     try {
       for (var i = 0; i < items.length; i++) {
 
