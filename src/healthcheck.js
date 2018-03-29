@@ -50,7 +50,7 @@ function Healthcheck(log) {
   }
 
   async function runChecks(items) {
-
+    log.info("In runChecks");
     try {
       for (var i = 0; i < items.length; i++) {
 
