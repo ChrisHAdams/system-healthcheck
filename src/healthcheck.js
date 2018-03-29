@@ -7,9 +7,9 @@ const database = require('./checks/databaseCheck');
 const filePath = './monitor_reports';
 const fileName = process.env.NODE_ENV + "-" + DateAndTime.getReverseDate(new Date());
 const sendAlertEmail = require('./sendEmails');
-const config = require('config');
 
-function Healthcheck(log) {
+
+function Healthcheck(config, log) {
 
   const CHECKTYPE = {
     website: "website",
@@ -20,9 +20,9 @@ function Healthcheck(log) {
 
   Object.freeze(CHECKTYPE);
 
-
-  this.itemsToCheck = config.get('healthcheck.items');
-  this.sendEmail = config.get('healthcheck.sendEmail');
+  this.options = options;
+  this.itemsToCheck = options.items;
+  this.sendEmail = options.sendEmail;
   this.log = log;
   this.log.info(this.itemsToCheck);
   console.log('Got it.');
