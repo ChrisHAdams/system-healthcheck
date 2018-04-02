@@ -77,7 +77,14 @@ Next is a more complex example...
 ##### Databases
 At this time, the system healthcheck only has support for connecting to Oracle databases.  Oracle checks are disabled by default as the oracle-db package requires libraries to be installed.
 
-To enable database support,
+To enable database support, run,
+`` npm install oracledb
+
+Once installed via NPM, there will be errors detailing the local components that need to be installed.  These
+can be downloaded from the Oracle website.
+
+
+
 Below is an example to connect.
 ``      "name": "Database Name",
 ``      "description": "Database Description.",
