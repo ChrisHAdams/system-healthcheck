@@ -1,10 +1,8 @@
-const config = require('config');
 const mailer = require('nodemailer');
 
-function sendEmail(items, log){
+function sendEmail(mailTransport, MailDetails, items, log){
 
-  let smtp = mailer.createTransport(config.get('healthcheck.mailTransport'));
-  let mailDetails = config.get('healthcheck.mailDetails');
+  let smtp = mailer.createTransport(mailTransport);
   let mailOptions = {"to": mailDetails.to,
                      "from" : mailDetails.from,
                      "subject": mailDetails.subject,

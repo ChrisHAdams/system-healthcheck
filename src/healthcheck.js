@@ -9,7 +9,7 @@ const fileName = process.env.NODE_ENV + "-" + DateAndTime.getReverseDate(new Dat
 const sendAlertEmail = require('./sendEmails');
 
 
-function Healthcheck(config, log) {
+function Healthcheck(options, log) {
 
   const CHECKTYPE = {
     website: "website",
@@ -25,7 +25,12 @@ function Healthcheck(config, log) {
   this.sendEmail = options.sendEmail;
   this.log = log;
   this.log.info(this.itemsToCheck);
-  console.log('Got it.');
+
+  if(this.sendEmail){
+    // If sendEmail is set, then grab the email properties.
+    this.mailTransport = options.mailTransport;
+    this.mailDetails = options.mailDetails;
+  }
 
   this.getItems = function() {
     return cleanseItems(this.itemsToCheck);
@@ -124,8 +129,10 @@ function Healthcheck(config, log) {
     let failures = checkResults(start, clonedItems);
 
     if((failures) && (this.sendEmail)){
-
-      sendAlertEmail.sendEmail(clonedItems, log);
+      sendAlertEmail.sendEmail(this.mailTransport,
+                               this.mailDetails,
+                               clonedItems,
+                               log);
     }
 
 
