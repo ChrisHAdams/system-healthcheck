@@ -60,17 +60,17 @@ Below is a simple example...
 
 Next is a more complex example...
 
-``      "name": "Some Servive Name",
-``      "description": "Some Description",
-``      "checkType": "service",
-``      "method": "POST",
-``      "headers": {"Content-Type": "application/xml"},
-``      "url": "the\url\of\the\service",
-``      "payload": "the Payload required for the service",
-``      "expectedResults": {
-``        "expectedStatusCode": 200,
-``        "expectedResponseTime": 600
-``      }
+`  {"name": "Some Service Name",
+    "description": "Some Description",
+    "checkType": "service",
+    "method": "POST",
+    "headers": {"Content-Type": "application/xml"},
+    "url": "the\url\of\the\service",
+    "payload": "the Payload required for the service",
+    "expectedResults": {
+      "expectedStatusCode": 200,
+      "expectedResponseTime": 600
+   }`
 
 ##### Databases
 At this time, the system healthcheck only has support for connecting to Oracle databases.  Oracle checks are disabled by default as the oracle-db package requires libraries to be installed.
@@ -99,13 +99,12 @@ Below is an example to connect.
 ##### Servers
 The server check using 'ping' to check whether a server can be reached.
 
-``    {
-``      "name": "Google IP Ping",
-``      "description": "Ping Google's IP Addresss",
-``      "checkType": "server",
-``      "url": "172.217.16.68",
-``      "expectedResults": {
-``        "expectedStatusCode": "Alive",
-``        "expectedMaxResponseTime": 100
-``      }
-``    }
+`  {"name": "Google IP Ping",
+    "description": "Ping Google's IP Addresss",
+    "checkType": "server",
+    "url": "172.217.16.68",
+    "expectedResults": {
+      "expectedStatusCode": "Alive",
+      "expectedMaxResponseTime": 100
+    }
+  }`
