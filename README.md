@@ -11,7 +11,7 @@ This module supports checking whether the following assets are available.
 4. Databases
 
 To install, run
-``npm i system-healthcheck
+`npm i system-healthcheck`
 
 This is a standalone module that can be integrated with your own application.  If you prefer a standalone
 application, or want an example of usage, then see [System Healthcheck App](https://github.com/ChrisHAdams/system-healthcheck-app).
@@ -34,31 +34,29 @@ This module checks websites, web services, databases and servers.  Following are
 
 The below example shows to how configure a website/webpage check.  If you want to define expected status and and expected response time, add the expectedResults object as shown below. When the monitor runs, it look for the two properties in the expectedResults object.
 
-``    {
-``      "name": "BBC Website",
-``      "description": "Ping BBC's website",
-``      "checkType": "website",
-``      "url": "http://www.bbc.co.uk",
-``      "expectedResults": {
-``        "expectedStatusCode": 200,
-``        "expectedResponseTime": 500
-``      }
-``    }
+`    {"name": "BBC Website",
+      "description": "Ping BBC's website",
+      "checkType": "website",
+      "url": "http://www.bbc.co.uk",
+      "expectedResults": {
+        "expectedStatusCode": 200,
+        "expectedResponseTime": 500
+      }
+    }`
 
 ##### Web Services
 The monitor is capable of calling SOAP and RESTful services including GET and POST requests.
 
 Below is a simple example...
-``    {
-``      "name": "Weather API",
-``      "description": "Ping Weather API",
-``      "checkType": "service",
-``      "url": "https://www.metaweather.com/api/location/search/?query=manchester",
-``      "expectedResults": {
-``        "expectedStatusCode": 200,
-``        "expectedResponseTime": 500
-``      }
-``    }
+`  {"name": "Weather API",
+    "description": "Ping Weather API",
+    "checkType": "service",
+    "url": "https://www.metaweather.com/api/location/search/?query=manchester",
+    "expectedResults": {
+      "expectedStatusCode": 200,
+      "expectedResponseTime": 500
+    }
+  } `
 
 Next is a more complex example...
 
@@ -78,7 +76,7 @@ Next is a more complex example...
 At this time, the system healthcheck only has support for connecting to Oracle databases.  Oracle checks are disabled by default as the oracle-db package requires libraries to be installed.
 
 To enable database support, run,
-`` npm install oracledb
+` npm install oracledb `
 
 Once installed via NPM, there will be errors detailing the local components that need to be installed.  These
 can be downloaded from the Oracle website.
@@ -86,16 +84,16 @@ can be downloaded from the Oracle website.
 
 
 Below is an example to connect.
-``      "name": "Database Name",
-``      "description": "Database Description.",
-``      "checkType": "database",
-``      "dbDetails": {"dbType": "oracle",
-``                    "user": "some_user",
-``                    "password": "xxxxxxx",
-``                    "connectionString": "serverName:port/schema"},
-``      "expectedResults": {
-``        "expectedStatusCode": "Available",
-``        "expectedResponseTime": 1000 }
+`      "name": "Database Name",
+       "description": "Database Description.",
+       "checkType": "database",
+       "dbDetails": {"dbType": "oracle",
+                     "user": "some_user",
+                     "password": "xxxxxxx",
+                     "connectionString": "serverName:port/schema"},
+       "expectedResults": {
+         "expectedStatusCode": "Available",
+         "expectedResponseTime": 1000 } `
 
 
 ##### Servers
