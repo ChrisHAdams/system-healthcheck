@@ -1,4 +1,5 @@
-const oracle = require('oracledb');
+//const oracle = require('oracledb');
+let oracle = {};
 
 async function makeOracleDbRequest(requestObj,log){
 
@@ -21,26 +22,26 @@ async function makeOracleDbRequest(requestObj,log){
           conn.close();
           log.info(`    Called ${requestObj.name}.  Response Code : Available.  Response Time : ${end}ms.`);
           const responseObj=JSON.parse(`{"responseCode": "Available", "responseTime": ${end}}`);
-          
-          return responseObj; 
+
+          return responseObj;
         })
         .catch(function(err) {
           const end = Date.now() - start;
           conn.close();
           log.info(`    Called ${requestObj.name}.  Response Code : ${err.message}.  Response Time : ${end}ms.`);
           const responseObj=JSON.parse(`{"responseCode": ${err.message}, "responseTime": ${end}}`);
-          return responseObj; 
+          return responseObj;
         });
     })
     .catch(function(err) {
       const end = Date.now() - start;
       log.info(`    Called ${requestObj.name}.  Response Code : ${err.message}.  Response Time : ${end}ms.`);
       const responseObj=JSON.parse(`{"responseCode": ${err.message}, "responseTime": ${end}}`);
-      return responseObj; 
+      return responseObj;
     });
-  
+
   return responseObj;
-  
+
 }
 
 module.exports = {makeOracleDbRequest};

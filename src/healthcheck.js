@@ -82,8 +82,6 @@ function Healthcheck(options, log) {
         writeJsonToFile(JSON.stringify(items[i]));
       }
 
-
-
     } catch(err){
       log.error("In runChecks (healthcheck.js) catch function");
       log.error(err);
