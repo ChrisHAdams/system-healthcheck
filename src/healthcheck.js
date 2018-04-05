@@ -63,7 +63,7 @@ function Healthcheck(options, log) {
   }
 
   async function runChecks(items) {
-    this.log.info("In runChecks");
+
     try {
       for (var i = 0; i < items.length; i++) {
 
@@ -79,9 +79,10 @@ function Healthcheck(options, log) {
         if(items[i].checkType === CHECKTYPE.database){
           items[i].responseDetails = await database.makeDatabaseRequest(items[i], log);
         }
-       }
+        writeJsonToFile(JSON.stringify(items[i]));
+      }
 
-       writeJsonToFile(JSON.stringify(items));
+
 
     } catch(err){
       log.error("In runChecks (healthcheck.js) catch function");
