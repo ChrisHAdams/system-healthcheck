@@ -4,8 +4,6 @@ const ping = require('./checks/pingServerCheck');
 const DateAndTime = require('./dateAndTimeFunctions');
 const writeLineToFileFunc = require('./fileOperations').writeLineToFile;
 const database = require('./checks/databaseCheck');
-const filePath = './monitor_reports';
-const fileName = process.env.NODE_ENV + "-" + DateAndTime.getReverseDate(new Date());
 const sendAlertEmail = require('./sendEmails');
 
 
@@ -37,7 +35,17 @@ function Healthcheck(options, log) {
   }
 
   function writeLineToFile(textToWrite) {
+    var filePath = './monitor_reports';
+    var fileName = process.env.NODE_ENV + "-" + DateAndTime.getReverseDate(new Date());
+
     writeLineToFileFunc(log, filePath, fileName, textToWrite);
+  }
+
+  function writeJsonToFile(json) {
+    var filePath = './json';
+    var fileName = process.env.NODE_ENV + "-" + DateAndTime.getReverseDate(new Date());
+
+    writeLineToFileFunc(log, filePath, fileName, json);
   }
 
   function cleanseItems(items){
@@ -73,6 +81,9 @@ function Healthcheck(options, log) {
           items[i].responseDetails = await database.makeDatabaseRequest(items[i], log);
         }
        }
+
+       writeJsonToFile(JSON.stringify(items));
+
     } catch(err){
       log.error("In runChecks (healthcheck.js) catch function");
       log.error(err);

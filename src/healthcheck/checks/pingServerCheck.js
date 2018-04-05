@@ -3,12 +3,12 @@ const ping = require('ping');
 async function makePingRequest(requestObj,log){
 
   const start    = Date.now();
-  const response = await ping.promise.probe(requestObj.url);
+  const response = await ping.promise.probe(requestObj.url,{timeout: 1.5});
   const end      = Date.now() - start;
 
   let status = response.alive ? "Alive" : "Dead";
   let responseObj = {}
-  
+
   if(status == "Alive"){
     log.info(`    Called ${requestObj.name}.  Response Code : ${status}.  Response Time : ${response.max}.`);
     responseObj=JSON.parse(`{"responseCode": "${status}", "responseTime": ${response.max}}`);
@@ -16,7 +16,7 @@ async function makePingRequest(requestObj,log){
     log.info(`    Called ${requestObj.name}.  Response Code : ${status}.  Response Time : ${end}.`);
     responseObj=JSON.parse(`{"responseCode": "${status}", "responseTime": ${end}}`);
   }
-  
+
   return responseObj;
 
 }

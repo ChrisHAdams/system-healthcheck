@@ -13,8 +13,16 @@ This module supports checking whether the following assets are available.
 To install, run
 `npm i system-healthcheck`
 
+There are some tests created.  To run the tests, the command is `npm test`.
+
 This is a standalone module that can be integrated with your own application.  If you prefer a standalone
 application, or want an example of usage, then see [System Healthcheck App](https://github.com/ChrisHAdams/system-healthcheck-app).
+
+### Public Methods
+At the time of writing, the module exposes two methods in healthcheck.js.
+1. getItems : Lists the items that the system-healthcheck is configured to monitor
+2. monitor  : Checks each of the configured items.  Results from the checks are stored in a daily log file
+in the monitor_reports directory.
 
 ### Configuration
 When instatiating an object from this class, all it expects is the the log from your own app (for info and error messaging) and a healthcheck options object.
@@ -77,7 +85,7 @@ Next is a more complex example...
       "expectedResponseTime": 600
     }
   }
-'''
+```
 
 ##### Databases
 At this time, the system healthcheck only has support for connecting to Oracle databases.  Oracle checks are disabled by default as the oracle-db package requires libraries to be installed.
@@ -87,8 +95,6 @@ To enable database support, run,
 
 Once installed via NPM, there will be errors detailing the local components that need to be installed.  These
 can be downloaded from the Oracle website.
-
-
 
 Below is an example to connect.
 ```
@@ -116,5 +122,40 @@ The server check using 'ping' to check whether a server can be reached.
       "expectedStatusCode": "Alive",
       "expectedMaxResponseTime": 100
     }
+  }
+```
+
+### Logging
+As mentioned earlier, the system-healthcheck module expects your applications log object so it can log
+application info and error statements.
+
+In addition to this, it creates a daily logged output of all checks, these can be found in the monitor
+reports directory.  This is a 'readable' log.
+
+Finally, there is a JSON log in the json folder.  Again, this is a daily rolling log which contains
+the results of the checks in JSON.  At some point in the future, this data will be used for trending.
+
+### Email Alerts
+
+Email alerts can also be sent from the monitor.  Emails are only sent when one or more checks fail.
+To set up, the options array needs to contain the following:-
+
+sendEmail property.  Boolean.  Defines whether emails should be sent or not.
+mailTransport object.  This aligns with mail transport object required by nodemailer.
+mailDetails object.  Basic To, From and Title properties for the email.
+
+Below is an example...
+```
+  "sendEmail:true,
+  "mailTransport":{
+    "host": "add host details",
+    "port": 00,
+    "ignoreTLS": true,
+    "secure": false
+  },
+  "mailDetails":{
+    "from": "healthcheck-noreply@somedomain.com",
+    "to": "john@somedomain.com",
+    "subject": "Monitor Alert"
   }
 ```
