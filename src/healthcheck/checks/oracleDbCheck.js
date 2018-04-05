@@ -1,5 +1,5 @@
 //const oracle = require('oracledb');
-const oracle = {};
+const oracle = {};  //To enable oracle checks, change the empty object to require the oracledb module.
 
 async function makeOracleDbRequest(requestObj,log){
 
