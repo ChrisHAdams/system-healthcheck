@@ -22,7 +22,6 @@ function Healthcheck(options, log) {
   this.itemsToCheck = options.items;
   this.sendEmail = options.sendEmail;
   this.log = log;
-  this.log.info(this.itemsToCheck);
 
   if(this.sendEmail){
     // If sendEmail is set, then grab the email properties.
