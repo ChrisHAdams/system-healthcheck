@@ -1,9 +1,9 @@
-const request = require('./checks/httpRequestCheck');
-const webService = require('./checks/webServiceCheck');
-const ping = require('./checks/pingServerCheck');
+const request = require('./healthcheck/checks/httpRequestCheck');
+const webService = require('./healthcheck/checks/webServiceCheck');
+const ping = require('./healthcheck/checks/pingServerCheck');
 const DateAndTime = require('./dateAndTimeFunctions');
 const writeLineToFileFunc = require('./fileOperations').writeLineToFile;
-const database = require('./checks/databaseCheck');
+const database = require('./healthcheck/checks/databaseCheck');
 const sendAlertEmail = require('./sendEmails');
 
 
