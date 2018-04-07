@@ -100,7 +100,7 @@ function Healthcheck(options, log) {
 
     let item = items[j];
     items[i].date = DateAndTime.getDate(start);
-
+    items[i].time = DateAndTime.getTime(start);
     writeLineToFile(`${item.checkType} - ${item.name}.  Status Code - ${item.responseDetails.responseCode}.  Response Time - ${items[j].responseDetails.responseTime}ms.`);
 
     if(item.hasOwnProperty('expectedResults')){
