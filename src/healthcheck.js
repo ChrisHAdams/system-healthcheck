@@ -99,8 +99,8 @@ function Healthcheck(options, log) {
   for (var j = 0; j < items.length; j++) {
 
     let item = items[j];
-    items[i].date = DateAndTime.getDate(start);
-    items[i].time = DateAndTime.getTime(start);
+    items[j].date = DateAndTime.getDate(start);
+    items[j].time = DateAndTime.getTime(start);
     writeLineToFile(`${item.checkType} - ${item.name}.  Status Code - ${item.responseDetails.responseCode}.  Response Time - ${items[j].responseDetails.responseTime}ms.`);
 
     if(item.hasOwnProperty('expectedResults')){
