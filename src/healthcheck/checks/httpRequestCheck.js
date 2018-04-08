@@ -18,8 +18,8 @@ async function makeHttpRequest(requestObj,log){
     })
     .catch(function(error) {
       const end = Date.now() - start;
-      log.info(`    Called ${requestObj.name}.  Response Code : ${error.statusCode}.  Response Message : ${error.response.statusMessage}.  Response Time : ${end}ms.`);
-      const responseObj=JSON.parse(`{"responseCode": ${error.statusCode}, "responseMessage": "${error.response.statusMessage}", "responseTime": ${end}}`);
+      log.info(`    Called ${requestObj.name}.  Response Code : ${error.statusCode}.  Response Message : ${error.message}.  Response Time : ${end}ms.`);
+      const responseObj=JSON.parse(`{"responseCode": "${error.statusCode}", "responseMessage": "${error.message}", "responseTime": ${end}}`);
       return responseObj;
     });
 

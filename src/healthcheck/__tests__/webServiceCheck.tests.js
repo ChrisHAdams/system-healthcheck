@@ -36,16 +36,15 @@ describe('#webServiceCheck', function() {
 
 
   it('should be able to successfully call a web service', async function() {
-
     var responseObj = await WebServiceCheck.makeWebServiceRequest(goodServiceObj, log);
-    //console.log(responseObj);
+
     expect(goodServiceObj.expectedResults.expectedStatusCode).to.equal(responseObj.responseCode);
 
   });
 
   it('should be able to successfully deduce a server is dead', async function() {
     var responseObj = await WebServiceCheck.makeWebServiceRequest(badServiceObj, log);
-    //console.log(responseObj);
+
     expect(badServiceObj.expectedResults.expectedStatusCode).to.equal(responseObj.responseCode);
 
   });

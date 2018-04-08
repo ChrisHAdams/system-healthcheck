@@ -1,10 +1,10 @@
 const request = require('./healthcheck/checks/httpRequestCheck');
 const webService = require('./healthcheck/checks/webServiceCheck');
 const ping = require('./healthcheck/checks/pingServerCheck');
-const DateAndTime = require('./dateAndTimeFunctions');
-const writeLineToFileFunc = require('./fileOperations').writeLineToFile;
+const DateAndTime = require('./healthcheck/dateAndTimeFunctions');
+const writeLineToFileFunc = require('./healthcheck/fileOperations').writeLineToFile;
 const database = require('./healthcheck/checks/databaseCheck');
-const sendAlertEmail = require('./sendEmails');
+const sendAlertEmail = require('./healthcheck/sendEmails');
 
 
 function Healthcheck(options, log) {

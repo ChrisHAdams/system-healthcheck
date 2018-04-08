@@ -20,7 +20,7 @@ const badWebsiteObj = {
         "name": "Bad Website",
         "description": "Ping a Bad website",
         "checkType": "website",
-        "url": "http://localhost:8006/api",
+        "url": "http://localhost:8006/api/runMonitor",
         "expectedResults": {
           "expectedStatusCode": 404,
           "expectedResponseTime": 600
@@ -45,6 +45,7 @@ describe('#callWebsiteCheck', function() {
   it('should be able to successfully deduce a website is down', async function() {
 
     var responseObj = await HttpRequestCheck.makeHttpRequest(badWebsiteObj, log);
+    console.log(responseObj);
     expect(badWebsiteObj.expectedResults.expectedStatusCode).to.equal(responseObj.responseCode);
 
   });
