@@ -1,6 +1,6 @@
 {
   "name": "system-healthcheck",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "System Healthcheck Module",
   "main": "./src/healthcheck.js",
   "scripts": {

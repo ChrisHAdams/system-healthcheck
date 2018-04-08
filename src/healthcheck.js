@@ -80,7 +80,6 @@ function Healthcheck(options, log) {
           items[i].responseDetails = await database.makeDatabaseRequest(items[i], log);
         }
 
-        writeJsonToFile(JSON.stringify(items[i]));
       }
 
     } catch(err){
@@ -120,6 +119,7 @@ function Healthcheck(options, log) {
         item.responseDetails.responseTimeCheck = "Pass";
       }
     }
+    writeJsonToFile(JSON.stringify(items[j]));
   }
 
   writeLineToFile('='.repeat(80));
@@ -146,7 +146,6 @@ function Healthcheck(options, log) {
                                clonedItems,
                                log);
     }
-
 
     log.info("Completed monitoring checks.");
 
