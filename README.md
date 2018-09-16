@@ -1,3 +1,7 @@
+# I'm no longer maintaining this app....
+I've created a new app which is [here](https://github.com/ChrisHAdams/application-healthcheck)
+
+
 # System Healthcheck
 
 ## A Module to provide a System Healthcheck
