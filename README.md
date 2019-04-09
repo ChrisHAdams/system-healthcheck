@@ -2,7 +2,7 @@
 I've created a new app which is [here](https://github.com/ChrisHAdams/application-healthcheck)
 
 
-# System Healthcheck
+# System Healthcheck [![Github Downloads (total)](https://img.shields.io/github/downloads/kotlin-graphics/kotlin-unsigned/total.svg)]()
 
 Note - I'm no longer actively maintaining this package.  The most recent update was because of vunerability alerts.
 
