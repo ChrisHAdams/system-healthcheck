@@ -2,7 +2,7 @@
 I've created a new app which is [here](https://github.com/ChrisHAdams/application-healthcheck)
 
 
-# System Healthcheck [![Github Downloads (total)](https://img.shields.io/github/downloads/ChrisHAdams/system-healthcheck/total.svg)]()
+# System Healthcheck
 
 Note - I'm no longer actively maintaining this package.  The most recent update was because of vunerability alerts.
 
