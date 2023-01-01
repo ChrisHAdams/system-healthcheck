@@ -22,7 +22,7 @@
   "author": "Chris Adams",
   "license": "ISC",
   "dependencies": {
-    "config": "^1.31.0",
+    "config": "^3.3.8",
     "express": "^4.16.4",
     "nodemailer": "^4.7.0",
     "ping": "^0.2.2",
